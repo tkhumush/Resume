@@ -30,7 +30,7 @@ export const techProjects: Project[] = [
   },
   {
     title: 'Mempool TV',
-    summary: 'Apple TV app that streams Bitcoin mempool insights for the living room experience.',
+    summary: 'Apple TV app that streams Bitcoin mempool insights for the living room experience.\n',
     links: [
       { label: 'Source', url: 'https://github.com/tkhumush/MempoolTV.git' },
       { label: 'App Store', url: 'https://apps.apple.com/us/app/mempooltv/id6751822510' },
@@ -48,7 +48,7 @@ export const techProjects: Project[] = [
   },
   {
     title: 'FastDiet',
-    summary: 'Mobile app that tracks last meal timing and fasting windows with reminders to stay on plan.',
+    summary: 'Mobile app that tracks last meal timing and fasting windows with reminders to stay on plan.\n',
     links: [
       { label: 'App Store', url: 'https://apps.apple.com/us/app/fastdiet-last-meal-burner/id1487273671' },
     ],

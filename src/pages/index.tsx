@@ -5,6 +5,13 @@ import { techProjects, workProjects } from '@/data/projects';
 import resumeData from '@/data/resume-data.json';
 
 const placeholderImage = 'https://cdn.flyonui.com/fy-assets/components/card/image-9.png';
+const projectImageMap: Record<string, string> = {
+  'Seewaan Nostr Client': '/assets/seewaan.png',
+  'Nostr Arabia Relay & Media': '/assets/nostrarabia.png',
+  'Mempool TV': '/assets/mempoolTV.png',
+  'nostrTV (tvOS & AndroidTV)': '/assets/nostrTV.png',
+  FastDiet: '/assets/fastdiet.webp',
+};
 
 type StatusStyle = {
   statusClass: string;
@@ -91,11 +98,11 @@ const Home = () => {
               <div key={project.title} className="card sm:max-w-sm bg-white shadow-xl border border-slate-100">
                 <figure>
                   <Image
-                    src={placeholderImage}
+                    src={projectImageMap[project.title] || placeholderImage}
                     alt={project.title}
                     width={400}
-                    height={260}
-                    className="h-full w-full object-cover"
+                    height={195}
+                    className="h-[195px] w-full object-cover"
                   />
                 </figure>
                 <div className="card-body">
@@ -108,7 +115,7 @@ const Home = () => {
                       <span className={style.textClass}>{style.label}</span>
                     </div>
                   </div>
-                  <p className="text-slate-700 mb-4">{project.summary}</p>
+                  <p className="text-slate-700 mb-4 whitespace-pre-line">{project.summary}</p>
                   <div className="card-actions flex flex-wrap gap-2">
                     {project.links.map((link) => (
                       <a
@@ -146,7 +153,7 @@ const Home = () => {
                       <span className={style.textClass}>{style.label}</span>
                     </div>
                   </div>
-                  <p className="text-slate-700 mb-4">{project.summary}</p>
+                  <p className="text-slate-700 mb-4 whitespace-pre-line">{project.summary}</p>
                   <div className="card-actions flex flex-wrap gap-2">
                     {project.links.length > 0 ? (
                       project.links.map((link) => (
