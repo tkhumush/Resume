@@ -95,6 +95,13 @@ const Map = () => {
   const mapInstanceMENA = useRef<DatamapInstance | null>(null);
   const [scriptCount, setScriptCount] = useState(0);
 
+  useEffect(() => {
+    if (typeof window !== 'undefined' && window.Datamap) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setScriptCount(3);
+    }
+  }, []);
+
   const createMap = (
     element: HTMLDivElement,
     bubbles: CityBubble[],
