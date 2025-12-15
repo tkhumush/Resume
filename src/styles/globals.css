@@ -13,13 +13,6 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: radial-gradient(circle at 20% 20%, #f4f7ff, #ffffff 40%),
     radial-gradient(circle at 80% 0%, #e8f0ff, #ffffff 35%),
