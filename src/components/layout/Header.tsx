@@ -15,6 +15,9 @@ const Header = () => {
           <Link href="/#portfolio" className="btn btn-soft btn-primary btn-sm">
             Github Portfolio
           </Link>
+          <Link href="https://github.com/tkhumush/Resume/blob/main/README.md" target="_blank" className="btn btn-soft btn-primary btn-sm">
+            Resume (README)
+          </Link>
           <Link href="/contact" className="btn btn-gradient btn-primary btn-sm text-white">
             Contact
           </Link>
