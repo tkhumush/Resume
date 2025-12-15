@@ -10,10 +10,10 @@ const Header = () => {
         <div className="flex-1" />
         <div className="flex items-center gap-2 text-sm font-medium">
           <Link href="/consulting" className="btn btn-soft btn-primary btn-sm">
-            HR Consulting
+            Human Capital
           </Link>
           <Link href="/#portfolio" className="btn btn-soft btn-primary btn-sm">
-            Portfolio
+            Github Portfolio
           </Link>
           <Link href="/contact" className="btn btn-gradient btn-primary btn-sm text-white">
             Contact

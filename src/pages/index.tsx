@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Layout from '@/components/layout/Layout';
 import Map from '@/components/Map';
 import { techProjects, workProjects } from '@/data/projects';
-import resumeData from '@/data/resume-data.json';
 
 const placeholderImage = 'https://cdn.flyonui.com/fy-assets/components/card/image-9.png';
 const projectImageMap: Record<string, string> = {
@@ -54,15 +53,17 @@ const Home = () => {
     <Layout>
       <section className="hero bg-base-100">
         <div className="hero-content flex-col gap-6">
-          <div className="card bg-transparent shadow-sm border border-slate-200/60 w-full">
-            <div className="card-body space-y-3">
-              <div className="badge badge-primary badge-lg text-white">
-                Strategy, Workforce Planning, Nostr & Product
-              </div>
-              <h1 className="text-4xl lg:text-5xl font-extrabold leading-tight text-slate-900">
-                Building resilient teams and products across regions
+            <div className="card bg-transparent shadow-sm border border-slate-200/60 w-full">
+              <div className="card-body space-y-3">
+                <div className="badge badge-primary badge-lg text-white">
+                  Human Capital Development, Strategy, Org Design, Workforce Planning, Power Platform Developer (Power Apps, Power BI, Power Automate, and more.
+                </div>
+                <h1 className="text-4xl lg:text-5xl font-extrabold leading-tight text-slate-900">
+                  Take your Human Resources Team to a whole new level
               </h1>
-              <p className="text-lg text-slate-700">{resumeData.summary}</p>
+              <p className="text-lg text-slate-700">
+                Management Consultant with over a decade of experience in <strong>Human Capital and workforce development</strong>, supporting federal and private-sector clients. I help human capital teams increase effectiveness by designing and deploying <strong>Power Platform solutions</strong>, data analytics, and AI-enabled tools—bringing <strong>exceptional proficiency in applying AI technologies to design, build, and accelerate technical solutions</strong> that modernize systems, strengthen insights, and improve overall performance.
+              </p>
             </div>
           </div>
         </div>
@@ -74,14 +75,14 @@ const Home = () => {
             <div className="flex items-center justify-between">
               <div>
                 <p className="text-sm text-slate-600">Global Footprint</p>
-                <h2 className="text-2xl font-bold text-slate-900">Projects by City</h2>
+                <h2 className="text-2xl font-bold text-slate-900">Regional Projects</h2>
               </div>
             </div>
-            <div className="mt-4 w-full h-[360px] rounded-lg overflow-hidden border border-slate-200">
+            <div className="mt-4 w-full h-[396px] rounded-lg overflow-hidden border border-slate-200">
               <Map />
             </div>
             <div className="mt-4 text-sm text-slate-600">
-              Hover over each city to explore engagements and products delivered in that region.
+              Hover over each city to explore engagements delivered in that region.
             </div>
           </div>
         </div>
@@ -89,7 +90,7 @@ const Home = () => {
 
       <section className="mt-12 scroll-mt-24" id="portfolio">
         <div className="flex items-center justify-between mb-4">
-          <h2 className="text-2xl font-bold text-slate-900">Portfolio</h2>
+          <h2 className="text-2xl font-bold text-slate-900">Github Portfolio</h2>
         </div>
         <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-6">
           {techProjects.map((project) => {
@@ -154,7 +155,7 @@ const Home = () => {
                     </div>
                   </div>
                   <p className="text-slate-700 mb-4 whitespace-pre-line">{project.summary}</p>
-                  <div className="card-actions flex flex-wrap gap-2">
+                  <div className="card-actions flex flex-wrap gap-2 items-center justify-between">
                     {project.links.length > 0 ? (
                       project.links.map((link) => (
                         <a
@@ -170,6 +171,15 @@ const Home = () => {
                     ) : (
                       <span className="text-xs text-slate-500">Internal asset</span>
                     )}
+                    <span
+                      className={`badge text-[11px] ${
+                        project.title === 'Mentorship Program'
+                          ? 'bg-[#a4328a] text-white border-[#a4328a]'
+                          : 'bg-[#f2c811] text-black border-[#f2c811]'
+                      }`}
+                    >
+                      {project.title === 'Mentorship Program' ? 'Power App' : 'Power BI'}
+                    </span>
                   </div>
                 </div>
               </div>

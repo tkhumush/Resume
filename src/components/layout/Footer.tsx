@@ -5,7 +5,7 @@ const Footer = () => {
         <div>
           <p className="text-lg font-semibold">Taymur Khumush</p>
           <p className="text-sm text-slate-300">
-            Consulting, workforce strategy, and tech-powered delivery.
+            Human Capital collides with Programming!
           </p>
         </div>
         <p className="text-sm text-slate-400">&copy; 2025</p>

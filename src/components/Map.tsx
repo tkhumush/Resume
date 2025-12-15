@@ -74,7 +74,7 @@ const menaCities: CityBubble[] = [
       'University strategy and operating model refresh.',
       'Strategy development initiatives with stakeholder interviews.',
       'HRIS transition and HR policy modernization.',
-      'Workforce planning and analytics engagements.',
+      'Design a comprehensive human resource development system.',
     ],
     radius: 9,
   },

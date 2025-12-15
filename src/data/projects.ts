@@ -58,39 +58,45 @@ export const techProjects: Project[] = [
 
 export const workProjects: Project[] = [
   {
-    title: 'Retirement Dashboard (Power BI)',
+    title: 'Retirement Dashboard',
     summary: 'Forecasts retirement eligibility windows and highlights at-risk skill areas for proactive staffing.',
     links: [],
+    status: 'Deployed',
   },
   {
-    title: 'Career Path Competency Explorer (Power BI)',
+    title: 'Career Path Competency Explorer',
     summary: 'Maps roles to competencies and readiness signals to guide mobility and targeted development.',
     links: [],
+    status: 'Deployed',
   },
   {
-    title: 'Career Path History Analysis (Power BI)',
+    title: 'Career Path History Analysis',
     summary: 'Visualizes role movement patterns to uncover progression bottlenecks and internal supply trends.',
     links: [],
+    status: 'Deployed',
   },
   {
-    title: 'Supply Analysis Dashboard (Power BI)',
-    summary: 'Monitors headcount supply against workforce plans and hiring pipelines for WMATA operations.',
+    title: 'Supply Analysis Dashboard',
+    summary: 'Monitors headcount supply against workforce plans and hiring pipelines for operations.',
     links: [],
+    status: 'Deployed',
   },
   {
-    title: 'Termination Analysis Dashboard (Power BI)',
+    title: 'Termination Analysis Dashboard',
     summary: 'Tracks attrition drivers by function and tenure to inform retention actions.',
     links: [],
+    status: 'Deployed',
   },
   {
-    title: 'Overtime Analysis Dashboard (Power BI)',
+    title: 'Overtime Analysis Dashboard',
     summary: 'Surfaces overtime trends and cost drivers to support budget controls and staffing plans.',
     links: [],
+    status: 'Deployed',
   },
   {
-    title: 'Mentorship Program Power App',
-    summary: 'Power App to intake participants, match mentors/mentees, and track outcomes (detailed copy to be added).',
+    title: 'Mentorship Program',
+    summary: 'Power App to intake participants, match mentors/mentees, and track outcomes.',
     links: [],
-    status: 'In review',
+    status: 'Deployed',
   },
 ];
