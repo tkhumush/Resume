@@ -3,7 +3,7 @@
 Arlington, Virginia, USA
 
 ## Summary
-Management Consultant with over ten years in strategy, operating models, program evaluation, and performance management for federal and private-sector clients. Skilled in strategic planning, HRIS, compensation frameworks, and data visualization (Tableau, Power BI). Passionate about using analytics and AI-enabled tools to modernize systems, surface insights, and drive better decisions.
+Management Consultant with over a decade of experience in **Human Capital and workforce development**, supporting federal and private-sector clients. I help human capital teams increase effectiveness by designing and deploying **Power Platform solutions**, data analytics, and AI-enabled tools—bringing **exceptional proficiency in applying AI technologies to design, build, and accelerate technical solutions** that modernize systems, strengthen insights, and improve overall performance.
 
 ## Human Capital Experience
 **Workforce Planning Specialist — Washington Metropolitan Area Transit Authority (WMATA), Washington, DC, USA (Current)**  
@@ -55,16 +55,3 @@ Management Consultant with over ten years in strategy, operating models, program
 
 ## Education
 - **B. Sc. in Industrial Engineering (2012)** — Jordan University of Science and Technology, Jordan
-
-3.  **Run the development server:**
-    ```bash
-    npm run dev
-    ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Deployment
-
-This project is automatically deployed to GitHub Pages whenever changes are pushed to the `main` branch. The deployment is handled by a GitHub Actions workflow defined in `.github/workflows/deploy.yml`.
-
-The website will be available at `https://<your-github-username>.github.io/Resume/`.
