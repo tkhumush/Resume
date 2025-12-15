@@ -1,84 +1,60 @@
-Taymur Khumush 
+# Taymur Khumush — Resume
+
 Arlington, Virginia, USA
 
-This repository contains the source code for a personal resume website and a Markdown version of the resume.
+## Summary
+Management Consultant with over ten years in strategy, operating models, program evaluation, and performance management for federal and private-sector clients. Skilled in strategic planning, HRIS, compensation frameworks, and data visualization (Tableau, Power BI). Passionate about using analytics and AI-enabled tools to modernize systems, surface insights, and drive better decisions.
 
-## Project Overview
+## Human Capital Experience
+**Workforce Planning Specialist — Washington Metropolitan Area Transit Authority (WMATA), Washington, DC, USA (Current)**  
+- Built a Power BI Retirement Dashboard to track eligibility, forecast departures, and prioritize succession actions.  
+- Created a Career Path Competency Explorer to map roles, skills, and readiness signals for mobility planning.  
+- Developed a Career Path History Analysis to surface movement trends and progression bottlenecks.  
+- Delivered Supply Analysis dashboards to monitor headcount supply against staffing plans and pipelines.  
+- Produced Termination Analysis and Overtime Analysis dashboards to highlight attrition hotspots and cost drivers.  
+- Designed a Mentorship Program Power App to intake participants, match mentors/mentees, and track outcomes.
 
-This project serves two purposes:
-1.  A modern, clean, and professional personal resume website hosted on GitHub Pages.
-2.  A well-formatted `README.md` that mirrors the resume content, suitable for sharing in place of a PDF.
+**Consulting Senior Manager — Eagle Hill Consulting, Washington DC, USA (02/2021 – Present)**  
+- Led data analysis for a Pilot Project Assessment and recommended KPIs for future tracking.  
+- Managed a Change Network (30+ Change Leaders, 90 Ambassadors) supporting a federal reorganization.  
+- Produced 15+ custom leadership reports from employee feedback; improved Employee Engagement UX with dashboards.  
+- Overhauled inspection process via analytics; strengthened governance, records, and coordination.  
+- Implemented hiring and promotion processes; accelerated recruiting and two promotion cycles for 200 staff.  
+- Oversaw Return to Office for 1300 employees; built interim tracking during system updates.  
+- Optimized strategy development with process flowcharts, SOPs, and communications.
 
-The website is built with Next.js, TypeScript, and Tailwind CSS. It is designed to be easily extensible and maintainable.
+**Human Resources Project Manager — Natural Resources Defense Council, NY, USA (08/2019 - 02/2020)**  
+- Rolled out a new compensation structure and managed cross-calibration.  
+- Executed compensation adjustments and financial reporting for project costs.  
+- Led grievance and appeal procedures for job placements and final recalibration.  
+- Corrected 403b deferrals and contributions.
 
-## Resume
+**Senior Consultant — Business Insights Consulting, MENA & GCC (05/2012 - 06/2019)**  
+- Built strategy for a blended-learning university in Riyadh; aligned offerings with market needs.  
+- Led strategy development initiatives with environmental scans and stakeholder interviews.  
+- Refreshed operating models in Riyadh to support execution.  
+- Delivered workforce planning in Amman to address staffing gaps and redundancies.  
+- Managed HRIS transitions in Riyadh; modernized HR policies (ER, performance, L&D, incentives, succession).  
+- Advised a board in Doha on strategy implementation and governance cadence.
 
-### Summary
+## GitHub Portfolio (Tech Projects)
+- **Seewaan Nostr Client** — Open-source Nostr client with media support; deployment at seewaan.com. *(Active)*  
+- **Nostr Arabia Relay & Media** — Self-hosted relay with media handling to keep traffic local. *(Active)*  
+- **Mempool TV** — Apple TV app streaming Bitcoin mempool insights. *(Released)*  
+- **nostrTV (tvOS & AndroidTV)** — In-progress Nostr TV app for big-screen feeds. *(Work in progress)*  
+- **FastDiet** — Mobile app for last-meal tracking and fasting windows. *(Released)*
 
-As an accomplished Management Consultant with over ten years of expertise in Strategy, Operating Models, Program Evaluation, and Performance Management, I have spearheaded a wide range of consulting projects aimed at enhancing organizational effectiveness in Federal and Private sector. My experience encompasses developing business strategies, designing evaluation approaches, conducting assessments and gap analysis, and providing improvement recommendations. I am particularly passionate about leveraging data to drive business decisions, demonstrated through my proficiency in Tableau and PowerBI, where I excel in crafting data visualizations that reveal actionable insights and support strategic business outcomes.
+## Work Projects (Power Platform & BI)
+- **Retirement Dashboard** — Eligibility tracking and succession risk. *(Deployed)*  
+- **Career Path Competency Explorer** — Roles to competencies and readiness signals. *(Deployed)*  
+- **Career Path History Analysis** — Movement patterns and progression bottlenecks. *(Deployed)*  
+- **Supply Analysis Dashboard** — Headcount supply vs. workforce plans and pipelines. *(Deployed)*  
+- **Termination Analysis Dashboard** — Attrition drivers by function and tenure. *(Deployed)*  
+- **Overtime Analysis Dashboard** — Overtime trends and cost drivers. *(Deployed)*  
+- **Mentorship Program** — Power App for intake, matching, and outcomes tracking. *(Deployed)*
 
-### Consulting & HR Experience
-
-**Consulting Senior Manager**
-*Eagle Hill Consulting, VA (Washington DC, USA) (02/2021 – Present)*
-- Leading the Data Analysis for a Pilot Project Assessment for expanding our client's presence to a new geographical location. Reviewing all the data tracked over a 2-year period, conducted the analysis and data visualization, and developed recommended KPIs for future Pilot performance tracking.
-- Spearheading a Change Network, managing over 30 Change Leaders and 90 Ambassadors to support a major reorganization within a federal entity. And supporting a workstream to seamlessly transition personnel information and systems into a new organizational structure.
-- Led the analysis of employee feedback and the creation of 15 custom reports for senior leadership, enhancing decision-making in the Employee Engagement branch of a federal client.
-- Designed a tableau dashboard for the employee feedback reports to improve the user experience for staff accessing Employee Engagement services.
-- Managed a workstream to overhaul an inspection process using Data Analytics, delivering strategic improvements in governance, technology, records management, and communication coordination.
-- Implemented a new hiring and promotion process, accelerating recruitment and facilitating two promotion cycles for 200 employees.
-- Oversaw the Return to Office Initiative, preparing safe workspaces for 1300 employees and developing an interim tracking system during system updates.
-- Optimized a Strategy Development process, designing process flowcharts, a comprehensive SOP, and communication templates to streamline operations and enhance internal collaboration.
-
-**Human Resources Project Manager**
-*Natural Resources Defense Council, NY (08/2019 - 02/2020)*
-- Orchestrated the successful rollout of a new compensation structure, aligning jobs with appropriate bands, and managing cross-calibration efforts.
-- Executed compensation adjustments including Across the Board increases, equity adjustments, and cash bonuses, while also managing financial reporting for project costs.
-- Led the grievance and appeal procedures for job placements, overseeing documentation, processing, and gathering management input and feedback, culminating in the final recalibration and closure of cases.
-- Assisted the HR team with the correction of 403b plan deferrals and contributions, ensuring accurate and timely adjustments.
-
-**Senior Consultant**
-*Business Insights Consulting, Jordan (Washington DC, USA) (05/2012 - 06/2019)*
-- Directed the development of a comprehensive business strategy for a blended-learning university, aligning educational offerings with market needs.
-- Led two major strategy development initiatives involving environmental scans and stakeholder interviews to establish clear strategic objectives and execution plans.
-- Enhanced strategies with an Operating Model refresh, detailing processes and organizational structures vital for effective strategy implementation.
-- Supported an extensive workforce planning project, delivering strategic recommendations to address staffing gaps and redundancies.
-- Managed the preparation and transition of two HR teams to a new Human Resources Information System, enhancing operational efficiency.
-- Guided an HR team through a complete rework of HR policies, including Employee Relations, Performance Management, Learning & Development, Motivation & Incentives, Succession Planning, and Career Path Planning.
-
-### Education
-
-**B. Sc. in Industrial Engineering, 2012**
-*Jordan University of Science and Technology, Jordan*
-
-### Tech Projects / Portfolio
-
-<-- Tech Projects / Portfolio will be populated here -->
-
-### About / Philosophy
-
-<-- About / Philosophy will be populated here -->
-
-### Contact / Links
-
-<-- Contact / Links will be populated here -->
-
----
-
-## Local Development
-
-To get started with local development, follow these steps:
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/your-username/your-repository.git
-    cd your-repository
-    ```
-
-2.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
+## Education
+- **B. Sc. in Industrial Engineering (2012)** — Jordan University of Science and Technology, Jordan
 
 3.  **Run the development server:**
     ```bash
