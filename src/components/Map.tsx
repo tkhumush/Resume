@@ -199,7 +199,7 @@ const Map = () => {
       mapRefMENA.current,
       menaCities,
       { JOR: { fillKey: 'focus' }, SAU: { fillKey: 'focus' }, QAT: { fillKey: 'focus' } },
-      [50, 26],
+      [55, 24],
       1.3,
     );
 
@@ -223,7 +223,7 @@ const Map = () => {
   }, [scriptCount]);
 
   return (
-    <div className="relative w-full h-full">
+    <>
       <Script
         src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"
         strategy="afterInteractive"
@@ -243,13 +243,13 @@ const Map = () => {
       <div className="grid md:grid-cols-2 gap-4 h-full">
         <div
           ref={mapRefUS}
-          className="w-full h-[320px] rounded-lg border border-slate-200"
+          className="w-full h-full min-h-[224px] rounded-lg border border-slate-200"
           role="img"
           aria-label="Interactive map showing US project locations"
         />
         <div
           ref={mapRefMENA}
-          className="w-full h-[320px] rounded-lg border border-slate-200"
+          className="w-full h-full min-h-[224px] rounded-lg border border-slate-200"
           role="img"
           aria-label="Interactive map showing MENA project locations"
         />
@@ -265,7 +265,7 @@ const Map = () => {
           height: 100% !important;
         }
       `}</style>
-    </div>
+    </>
   );
 };
 

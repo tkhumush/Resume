@@ -55,9 +55,15 @@ const Home = () => {
         <div className="hero-content flex-col gap-6">
             <div className="card bg-transparent shadow-sm border border-slate-200/60 w-full">
               <div className="card-body space-y-3">
-                <div className="badge badge-primary badge-lg text-white">
-                  Human Capital Development, Strategy, Org Design, Workforce Planning, Power Platform Developer (Power Apps, Power BI, Power Automate, and more.
-                </div>
+              <div className="flex flex-wrap gap-2">
+                <span className="badge badge-primary badge-lg text-white">Human Capital Development</span>
+                <span className="badge badge-primary badge-lg text-white">Strategy</span>
+                <span className="badge badge-primary badge-lg text-white">Org Design</span>
+                <span className="badge badge-primary badge-lg text-white">Workforce Planning</span>
+                <span className="badge badge-primary badge-lg text-white">Power Apps</span>
+                <span className="badge badge-primary badge-lg text-white">Power BI</span>
+                <span className="badge badge-primary badge-lg text-white">Power Automate</span>
+              </div>
                 <h1 className="text-4xl lg:text-5xl font-extrabold leading-tight text-slate-900">
                   Take your Human Resources Team to a whole new level
               </h1>
