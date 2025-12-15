@@ -12,6 +12,7 @@
     "datamaps": "^0.5.9",
     "flyonui": "^2.4.1",
     "next": "16.0.10",
+    "nostr-tools": "^2.19.3",
     "pdf2json": "^4.0.0",
     "react": "19.2.1",
     "react-dom": "19.2.1"
