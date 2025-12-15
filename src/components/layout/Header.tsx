@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className="bg-white/80 backdrop-blur sticky top-0 z-20 border-b border-slate-200">
       <nav className="navbar container mx-auto px-4 py-3">
-        <Link href="/" className="text-2xl font-extrabold text-slate-900">
+        <Link href="/" className="text-[2.2rem] font-extrabold text-slate-900 leading-none">
           Taymur Khumush
         </Link>
         <div className="flex-1" />
