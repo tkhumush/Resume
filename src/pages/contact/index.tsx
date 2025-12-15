@@ -61,22 +61,11 @@ const ContactPage = () => {
         created_at: Math.floor(Date.now() / 1000),
         tags: [['p', contactPubkeyHex]],
         content: encrypted,
-        pubkey,
       };
 
       const signed = finalizeEvent(unsigned, secretKey);
       const pubs = poolRef.current.publish(relays, signed);
-      await Promise.allSettled(
-        pubs.map(
-          (p) =>
-            new Promise<void>((resolve, reject) => {
-              p.on('ok', () => resolve());
-              p.on('failed', (reason: unknown) =>
-                reject(new Error(typeof reason === 'string' ? reason : 'Publish failed')),
-              );
-            }),
-        ),
-      );
+      await Promise.all(pubs);
 
       setStatus('Message sent! You can close this tab or send another.');
       setMessage('');

@@ -131,7 +131,7 @@ const Map = () => {
         highlightBorderColor: '#6366f1',
         highlightFillColor: '#e0e7ff',
         popupOnHover: true,
-        popupTemplate: (geo) => {
+        popupTemplate: (geo: { properties: { name: string } }) => {
           const country = geo.properties.name;
           const related = bubbles.filter((c) => c.region === country);
           if (!related.length) return `<div class="p-2 text-sm">${country}</div>`;
@@ -152,7 +152,7 @@ const Map = () => {
         borderOpacity: 0.6,
         borderColor: '#4f46e5',
         popupOnHover: true,
-        popupTemplate: (_geo, dataBubble) => {
+        popupTemplate: (_geo: unknown, dataBubble: unknown) => {
           const bubble = dataBubble as CityBubble;
           return `
             <div class="bg-white rounded-lg shadow-md p-3 text-sm max-w-xs">
