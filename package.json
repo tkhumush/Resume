@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "export": "rm -rf docs && next export && mv out docs"
+    "export": "rm -rf docs && next build && mv out docs"
   },
   "dependencies": {
     "datamaps": "^0.5.9",
