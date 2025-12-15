@@ -65,7 +65,7 @@ const Home = () => {
                 <span className="badge badge-primary badge-lg text-white">Power Automate</span>
               </div>
                 <h1 className="text-4xl lg:text-5xl font-extrabold leading-tight text-slate-900">
-                  Take your Human Resources Team to a whole new level
+                  Take your HR Team to a whole new level!
               </h1>
               <p className="text-lg text-slate-700">
                 Management Consultant with over a decade of experience in <strong>Human Capital and workforce development</strong>, supporting federal and private-sector clients. I help human capital teams increase effectiveness by designing and deploying <strong>Power Platform solutions</strong>, data analytics, and AI-enabled tools—bringing <strong>exceptional proficiency in applying AI technologies to design, build, and accelerate technical solutions</strong> that modernize systems, strengthen insights, and improve overall performance.
