@@ -1,5 +1,8 @@
+'use client';
+
 import { useEffect, useRef, useState } from 'react';
 import Script from 'next/script';
+import { useTheme } from '@/contexts/ThemeContext';
 
 type CityBubble = {
   name: string;
@@ -89,11 +92,37 @@ const menaCities: CityBubble[] = [
 ];
 
 const Map = () => {
+  const { resolvedTheme } = useTheme();
   const mapRefUS = useRef<HTMLDivElement | null>(null);
   const mapRefMENA = useRef<HTMLDivElement | null>(null);
   const mapInstanceUS = useRef<DatamapInstance | null>(null);
   const mapInstanceMENA = useRef<DatamapInstance | null>(null);
   const [scriptCount, setScriptCount] = useState(0);
+
+  // Define color palettes with lighter city circles in dark mode
+  const colors = resolvedTheme === 'dark' ? {
+    defaultFill: '#0f172a',      // slate-900 (same as section background)
+    focus: '#4f46e5',             // indigo-600
+    borderColor: '#475569',       // slate-600
+    highlightBorderColor: '#ffffff', // white (city highlight border)
+    highlightFillColor: '#818cf8', // indigo-400 (lighter city circles)
+    popupBg: '#1e293b',           // slate-800
+    popupText: '#f1f5f9',         // slate-100
+    popupListText: '#cbd5e1',     // slate-300
+    bubbleFill: '#a5b4fc',        // indigo-300 (light city circles)
+    bubbleBorder: '#ffffff'       // white (city bubble border)
+  } : {
+    defaultFill: '#e5e7eb',       // gray-200
+    focus: '#c7d2fe',             // indigo-200
+    borderColor: '#cbd5e1',       // slate-300
+    highlightBorderColor: '#6366f1', // indigo-500
+    highlightFillColor: '#e0e7ff', // indigo-100
+    popupBg: '#ffffff',           // white
+    popupText: '#1e293b',         // slate-800
+    popupListText: '#475569',     // slate-600
+    bubbleFill: '#a5b4fc',        // indigo-300
+    bubbleBorder: '#4f46e5'       // indigo-600
+  };
 
   useEffect(() => {
     if (typeof window !== 'undefined' && window.Datamap) {
@@ -109,7 +138,7 @@ const Map = () => {
     center: [number, number],
     scaleFactor: number,
   ) => {
-    const fills = { defaultFill: '#e5e7eb', focus: '#c7d2fe' };
+    const fills = { defaultFill: colors.defaultFill, focus: colors.focus };
     const map = new window.Datamap({
       element,
       scope: 'world',
@@ -127,18 +156,18 @@ const Map = () => {
         return { path, projection };
       },
       geographyConfig: {
-        borderColor: '#cbd5e1',
-        highlightBorderColor: '#6366f1',
-        highlightFillColor: '#e0e7ff',
+        borderColor: colors.borderColor,
+        highlightBorderColor: colors.highlightBorderColor,
+        highlightFillColor: colors.highlightFillColor,
         popupOnHover: true,
         popupTemplate: (geo: { properties: { name: string } }) => {
           const country = geo.properties.name;
           const related = bubbles.filter((c) => c.region === country);
-          if (!related.length) return `<div class="p-2 text-sm">${country}</div>`;
+          if (!related.length) return `<div class="p-2 text-sm" style="background: ${colors.popupBg}; color: ${colors.popupText};">${country}</div>`;
           return `
-            <div class="bg-white rounded-lg shadow-md p-3 text-sm max-w-xs">
+            <div class="rounded-lg shadow-md p-3 text-sm max-w-xs" style="background: ${colors.popupBg}; color: ${colors.popupText};">
               <div class="font-semibold mb-1">${country}</div>
-              <ul class="list-disc list-inside space-y-1 text-slate-700">
+              <ul class="list-disc list-inside space-y-1" style="color: ${colors.popupListText};">
                 ${related
                   .map((c) => `<li><strong>${c.name}:</strong> ${c.projects[0]}</li>`)
                   .join('')}
@@ -148,25 +177,25 @@ const Map = () => {
         },
       },
       bubblesConfig: {
-        borderWidth: 1,
-        borderOpacity: 0.6,
-        borderColor: '#4f46e5',
+        borderWidth: 1.5,
+        borderOpacity: 0.8,
+        borderColor: colors.bubbleBorder,
+        fillOpacity: 0.85,
         popupOnHover: true,
         popupTemplate: (_geo: unknown, dataBubble: unknown) => {
           const bubble = dataBubble as CityBubble;
           return `
-            <div class="bg-white rounded-lg shadow-md p-3 text-sm max-w-xs">
+            <div class="rounded-lg shadow-md p-3 text-sm max-w-xs" style="background: ${colors.popupBg}; color: ${colors.popupText};">
               <div class="font-semibold mb-1">${bubble.name}</div>
-              <ul class="list-disc list-inside space-y-1 text-slate-700">
+              <ul class="list-disc list-inside space-y-1" style="color: ${colors.popupListText};">
                 ${bubble.projects.map((p) => `<li>${p}</li>`).join('')}
               </ul>
             </div>
           `;
         },
-        highlightFillColor: '#a5b4fc',
-        highlightBorderColor: '#4338ca',
-        highlightBorderWidth: 1.5,
-        fillOpacity: 0.7,
+        highlightFillColor: colors.bubbleFill,
+        highlightBorderColor: colors.bubbleBorder,
+        highlightBorderWidth: 2,
       },
     });
 
@@ -227,7 +256,7 @@ const Map = () => {
         mapInstanceMENA.current = null;
       }
     };
-  }, [scriptCount]);
+  }, [scriptCount, resolvedTheme, colors]);
 
   return (
     <>
@@ -250,13 +279,13 @@ const Map = () => {
       <div className="grid md:grid-cols-2 gap-4 h-full">
         <div
           ref={mapRefUS}
-          className="w-full h-full min-h-[224px] rounded-lg border border-slate-200"
+          className="w-full h-full min-h-[224px] rounded-lg border border-slate-200 dark:border-slate-700"
           role="img"
           aria-label="Interactive map showing US project locations"
         />
         <div
           ref={mapRefMENA}
-          className="w-full h-full min-h-[224px] rounded-lg border border-slate-200"
+          className="w-full h-full min-h-[224px] rounded-lg border border-slate-200 dark:border-slate-700"
           role="img"
           aria-label="Interactive map showing MENA project locations"
         />

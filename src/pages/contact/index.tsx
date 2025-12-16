@@ -83,19 +83,19 @@ const ContactPage = () => {
 
   return (
     <Layout>
-      <h1 className="text-3xl font-bold mb-4">Send me a message</h1>
-      <p className="mb-6 text-slate-700">
+      <h1 className="text-3xl font-bold mb-4 dark:text-white">Send me a message</h1>
+      <p className="mb-6 text-slate-700 dark:text-slate-300">
         If you find my resume interesting, send me a private message. Leave your email and I will reply back to you.
       </p>
 
-      <div className="card bg-white shadow-md border border-slate-200">
+      <div className="card bg-white dark:bg-slate-900 shadow-md border border-slate-200 dark:border-slate-700">
         <div className="card-body space-y-4">
           <div>
             <label className="label">
-              <span className="label-text font-semibold">Subject</span>
+              <span className="label-text font-semibold text-slate-900 dark:text-slate-300">Subject</span>
             </label>
             <input
-              className="input input-bordered w-full"
+              className="input input-bordered w-full bg-white dark:bg-slate-800 border-slate-300 dark:border-slate-700 text-slate-900 dark:text-white placeholder:text-slate-500 dark:placeholder:text-slate-400"
               value={subject}
               onChange={(e) => setSubject(e.target.value)}
               placeholder="Subject"
@@ -104,10 +104,10 @@ const ContactPage = () => {
 
           <div>
             <label className="label">
-              <span className="label-text font-semibold">Message</span>
+              <span className="label-text font-semibold text-slate-900 dark:text-slate-300">Message</span>
             </label>
             <textarea
-              className="textarea textarea-bordered w-full h-32"
+              className="textarea textarea-bordered w-full h-32 bg-white dark:bg-slate-800 border-slate-300 dark:border-slate-700 text-slate-900 dark:text-white placeholder:text-slate-500 dark:placeholder:text-slate-400"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               placeholder="Introduce yourself and include any contact details you'd like me to use."
@@ -117,10 +117,10 @@ const ContactPage = () => {
           <div className="grid md:grid-cols-2 gap-4">
             <div>
               <label className="label">
-                <span className="label-text font-semibold">Full name</span>
+                <span className="label-text font-semibold text-slate-900 dark:text-slate-300">Full name</span>
               </label>
               <input
-                className="input input-bordered w-full"
+                className="input input-bordered w-full bg-white dark:bg-slate-800 border-slate-300 dark:border-slate-700 text-slate-900 dark:text-white placeholder:text-slate-500 dark:placeholder:text-slate-400"
                 value={fullName}
                 onChange={(e) => setFullName(e.target.value)}
                 placeholder="Your name"
@@ -128,10 +128,10 @@ const ContactPage = () => {
             </div>
             <div>
               <label className="label">
-                <span className="label-text font-semibold">Contact (email or phone)</span>
+                <span className="label-text font-semibold text-slate-900 dark:text-slate-300">Contact (email or phone)</span>
               </label>
               <input
-                className="input input-bordered w-full"
+                className="input input-bordered w-full bg-white dark:bg-slate-800 border-slate-300 dark:border-slate-700 text-slate-900 dark:text-white placeholder:text-slate-500 dark:placeholder:text-slate-400"
                 value={contactInfo}
                 onChange={(e) => setContactInfo(e.target.value)}
                 placeholder="Email or phone"
@@ -140,7 +140,7 @@ const ContactPage = () => {
           </div>
 
           <button
-            className="btn btn-primary text-white"
+            className="btn btn-primary btn-md text-white"
             onClick={handleSend}
             disabled={sending || !contactPubkeyHex}
           >

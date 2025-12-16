@@ -4,18 +4,18 @@ import resumeData from '@/data/resume-data.json';
 const ConsultingPage = () => {
   return (
     <Layout>
-      <h1 className="text-3xl font-bold mb-8">Human Capital</h1>
+      <h1 className="text-3xl font-bold mb-8 text-slate-900 dark:text-white">Human Capital</h1>
       <div className="space-y-6">
         {resumeData.experience.map((job, index) => (
           <div
             key={index}
-            className="card bg-white shadow-md border border-slate-200"
+            className="card bg-white dark:bg-slate-900 shadow-md border border-slate-200 dark:border-slate-700"
           >
             <div className="card-body space-y-2">
               <div className="flex items-start justify-between gap-3">
                 <div>
-                  <h2 className="text-2xl font-bold">{job.title}</h2>
-                  <p className="text-lg font-semibold">{job.company}</p>
+                  <h2 className="text-2xl font-bold text-slate-900 dark:text-white">{job.title}</h2>
+                  <p className="text-lg font-semibold text-slate-900 dark:text-slate-200">{job.company}</p>
                   <div className="flex flex-wrap gap-2 mt-1">
                     <span className="badge text-[11px] bg-[#f2c811] text-black border border-[#f2c811]">
                       {job.location}
@@ -26,7 +26,7 @@ const ConsultingPage = () => {
                   </div>
                 </div>
               </div>
-              <ul className="list-disc pl-5 space-y-2 marker:text-slate-700">
+              <ul className="list-disc pl-5 space-y-2 text-slate-900 marker:text-slate-900 dark:marker:text-slate-300 dark:text-slate-300">
                 {job.description.map((item, i) => (
                   <li key={i}>{item}</li>
                 ))}

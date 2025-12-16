@@ -51,9 +51,9 @@ const getStatusStyle = (status?: string): StatusStyle => {
 const Home = () => {
   return (
     <Layout>
-      <section className="hero bg-base-100">
+      <section className="hero">
         <div className="hero-content flex-col gap-6">
-            <div className="card bg-transparent shadow-sm border border-slate-200/60 w-full">
+            <div className="card bg-white dark:bg-slate-900 shadow-sm border border-slate-200/60 dark:border-slate-700/60 w-full">
               <div className="card-body space-y-3">
               <div className="flex flex-wrap gap-2">
                 <span className="badge badge-primary badge-lg text-white">Human Capital Development</span>
@@ -64,10 +64,10 @@ const Home = () => {
                 <span className="badge badge-primary badge-lg text-white">Power BI</span>
                 <span className="badge badge-primary badge-lg text-white">Power Automate</span>
               </div>
-                <h1 className="text-4xl lg:text-5xl font-extrabold leading-tight text-slate-900">
+                <h1 className="text-4xl lg:text-5xl font-extrabold leading-tight text-slate-900 dark:text-white">
                   Take your HR Team to a whole new level!
               </h1>
-              <p className="text-lg text-slate-700">
+              <p className="text-lg text-slate-700 dark:text-slate-300">
                 Management Consultant with over a decade of experience in <strong>Human Capital and workforce development</strong>, supporting federal and private-sector clients. I help human capital teams increase effectiveness by designing and deploying <strong>Power Platform solutions</strong>, data analytics, and AI-enabled tools—bringing <strong>exceptional proficiency in applying AI technologies to design, build, and accelerate technical solutions</strong> that modernize systems, strengthen insights, and improve overall performance.
               </p>
             </div>
@@ -76,18 +76,18 @@ const Home = () => {
       </section>
 
       <section className="mt-8">
-        <div className="card glass shadow-xl">
+        <div className="card glass dark:bg-slate-900 shadow-xl">
           <div className="card-body">
             <div className="flex items-center justify-between">
               <div>
-                <p className="text-sm text-slate-600">Global Footprint</p>
-                <h2 className="text-2xl font-bold text-slate-900">Regional Projects</h2>
+                <p className="text-sm text-slate-600 dark:text-slate-400">Global Footprint</p>
+                <h2 className="text-2xl font-bold text-slate-900 dark:text-white">Regional Projects</h2>
               </div>
             </div>
-            <div className="mt-4 w-full h-[396px] rounded-lg overflow-hidden border border-slate-200">
+            <div className="mt-4 w-full h-[300px] sm:h-[350px] lg:h-[396px] rounded-lg overflow-hidden border border-slate-200 dark:border-slate-700">
               <Map />
             </div>
-            <div className="mt-4 text-sm text-slate-600">
+            <div className="mt-4 text-sm text-slate-600 dark:text-slate-400">
               Hover over each city to explore engagements delivered in that region.
             </div>
           </div>
@@ -96,13 +96,13 @@ const Home = () => {
 
       <section className="mt-12 scroll-mt-24" id="portfolio">
         <div className="flex items-center justify-between mb-4">
-          <h2 className="text-2xl font-bold text-slate-900">Github Portfolio</h2>
+          <h2 className="text-2xl font-bold text-slate-900 dark:text-white">Github Portfolio</h2>
         </div>
         <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-6">
           {techProjects.map((project) => {
             const style = getStatusStyle(project.status);
             return (
-              <div key={project.title} className="card sm:max-w-sm bg-white shadow-xl border border-slate-100">
+              <div key={project.title} className="card sm:max-w-sm bg-white dark:bg-slate-900 shadow-xl border border-slate-100 dark:border-slate-700">
                 <figure>
                   <Image
                     src={projectImageMap[project.title] || placeholderImage}
@@ -122,7 +122,7 @@ const Home = () => {
                       <span className={style.textClass}>{style.label}</span>
                     </div>
                   </div>
-                  <p className="text-slate-700 mb-4 whitespace-pre-line">{project.summary}</p>
+                  <p className="text-slate-700 dark:text-slate-300 mb-4 whitespace-pre-line">{project.summary}</p>
                   <div className="card-actions flex flex-wrap gap-2">
                     {project.links.map((link) => (
                       <a
@@ -145,13 +145,13 @@ const Home = () => {
 
       <section className="mt-12 scroll-mt-24" id="work-projects">
         <div className="flex items-center justify-between mb-4">
-          <h2 className="text-2xl font-bold text-slate-900">Work Projects (Power Platform & BI)</h2>
+          <h2 className="text-2xl font-bold text-slate-900 dark:text-white">Work Projects (Power Platform & BI)</h2>
         </div>
         <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-6">
           {workProjects.map((project) => {
             const style = getStatusStyle(project.status);
             return (
-              <div key={project.title} className="card sm:max-w-sm bg-white shadow-lg border border-slate-100">
+              <div key={project.title} className="card sm:max-w-sm bg-white dark:bg-slate-900 shadow-lg border border-slate-100 dark:border-slate-700">
                 <div className="card-body">
                   <h3 className="card-title mb-2.5">{project.title}</h3>
                   <div className="flex items-center gap-4 *:flex *:items-center *:gap-2 mb-2">
@@ -160,7 +160,7 @@ const Home = () => {
                       <span className={style.textClass}>{style.label}</span>
                     </div>
                   </div>
-                  <p className="text-slate-700 mb-4 whitespace-pre-line">{project.summary}</p>
+                  <p className="text-slate-700 dark:text-slate-300 mb-4 whitespace-pre-line">{project.summary}</p>
                   <div className="card-actions flex flex-wrap gap-2 items-center justify-between">
                     {project.links.length > 0 ? (
                       project.links.map((link) => (
