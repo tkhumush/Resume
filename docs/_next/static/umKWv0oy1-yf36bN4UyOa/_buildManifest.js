@@ -1,15 +1,15 @@
 self.__BUILD_MANIFEST = {
   "/": [
-    "static/chunks/ae3cdeb5463fb7c6.js"
+    "static/chunks/f3192e41f4352393.js"
   ],
   "/_error": [
-    "static/chunks/39602fd86daf2aca.js"
-  ],
-  "/consulting": [
-    "static/chunks/dace54d166c2c78b.js"
+    "static/chunks/570c8ba10738ab36.js"
   ],
   "/contact": [
-    "static/chunks/d1b871c92be397d8.js"
+    "static/chunks/5556f50c590017ae.js"
+  ],
+  "/human_capital": [
+    "static/chunks/204b95a4a376330c.js"
   ],
   "__rewrites": {
     "afterFiles": [],
@@ -25,7 +25,7 @@ self.__BUILD_MANIFEST = {
     "/",
     "/_app",
     "/_error",
-    "/consulting",
-    "/contact"
+    "/contact",
+    "/human_capital"
   ]
 };self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
