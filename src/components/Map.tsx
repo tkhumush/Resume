@@ -204,6 +204,9 @@ const Map = () => {
         ...city,
         radius: city.radius || 7,
         fillKey: 'focus',
+        fillColor: colors.bubbleFill,
+        borderColor: colors.bubbleBorder,
+        borderWidth: 2,
       })),
     );
 
