@@ -1,6 +1,6 @@
 # Taymur Khumush — Resume
 
-Arlington, Virginia, USA
+Virginia, USA
 
 ## Summary
 Management Consultant with over a decade of experience in **Human Capital and workforce development**, supporting federal and private-sector clients. I help human capital teams increase effectiveness by designing and deploying **Power Platform solutions**, data analytics, and AI-enabled tools—bringing **exceptional proficiency in applying AI technologies to design, build, and accelerate technical solutions** that modernize systems, strengthen insights, and improve overall performance.
