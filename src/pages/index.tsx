@@ -96,7 +96,7 @@ const Home = () => {
 
       <section className="mt-12 scroll-mt-24" id="work-projects">
         <div className="flex items-center justify-between mb-4">
-          <h2 className="text-2xl font-bold text-slate-900 dark:text-white">Work Projects (Power Platform & BI)</h2>
+          <h2 className="text-2xl font-bold text-slate-900 dark:text-white">Work Projects (Power Platform)</h2>
         </div>
         <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-6">
           {workProjects.map((project) => {
