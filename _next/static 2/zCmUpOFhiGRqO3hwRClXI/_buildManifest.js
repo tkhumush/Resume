@@ -1,24 +1,19 @@
 self.__BUILD_MANIFEST = {
   "/": [
-    "static/chunks/f3192e41f4352393.js"
+    "static/chunks/3301a706f371538c.js"
   ],
   "/_error": [
-    "static/chunks/570c8ba10738ab36.js"
+    "static/chunks/31f421e18d153b90.js"
   ],
   "/contact": [
-    "static/chunks/5556f50c590017ae.js"
+    "static/chunks/d80b6fb198bc2970.js"
   ],
   "/human_capital": [
-    "static/chunks/204b95a4a376330c.js"
+    "static/chunks/6179136ee27c6e8b.js"
   ],
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [
-      {
-        "source": "/Resume//_next/:path+",
-        "destination": "/Resume/_next/:path+"
-      }
-    ],
+    "beforeFiles": [],
     "fallback": []
   },
   "sortedPages": [
