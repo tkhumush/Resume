@@ -4,7 +4,6 @@ const nextConfig: NextConfig = {
   /* config options here */
   reactStrictMode: true,
   output: 'export',
-  basePath: '/Resume',
   images: {
     unoptimized: true,
   },
