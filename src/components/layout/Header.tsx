@@ -21,6 +21,9 @@ const Header = () => {
           <Link href="/human_capital" className="btn btn-soft btn-primary btn-sm">
             Human Capital
           </Link>
+          <Link href="/#work-projects" className="btn btn-soft btn-primary btn-sm">
+            Power Platform
+          </Link>
           <Link href="/#portfolio" className="btn btn-soft btn-primary btn-sm">
             Github Portfolio
           </Link>
@@ -62,6 +65,13 @@ const Header = () => {
               onClick={() => setMobileMenuOpen(false)}
             >
               Human Capital
+            </Link>
+            <Link
+              href="/#work-projects"
+              className="btn btn-soft btn-primary btn-md w-full"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Power Platform
             </Link>
             <Link
               href="/#portfolio"
