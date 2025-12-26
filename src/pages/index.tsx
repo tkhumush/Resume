@@ -5,7 +5,7 @@ import { techProjects, workProjects } from '@/data/projects';
 
 const placeholderImage = 'https://cdn.flyonui.com/fy-assets/components/card/image-9.png';
 const projectImageMap: Record<string, string> = {
-  'Seewaan Nostr Client': '/assets/seewaan.png',
+  'Nostrhood - A nostr client': '/assets/seewaan.png',
   'Nostr Arabia Relay & Media': '/assets/nostrarabia.png',
   'Mempool TV': '/assets/mempoolTV.png',
   'nostrTV (tvOS & AndroidTV)': '/assets/nostrTV.png',

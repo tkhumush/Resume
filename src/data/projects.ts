@@ -12,11 +12,12 @@ export type Project = {
 
 export const techProjects: Project[] = [
   {
-    title: 'Seewaan Nostr Client',
-    summary: 'Open-source Nostr client focused on browsing and publishing notes with media support, packaged for easy deployment on seewaan.com.',
+    title: 'Nostrhood - A nostr client',
+    summary: 'Open-source Nostr client focused on browsing and publishing notes with media support, deployed on nostrhood.social.',
     links: [
       { label: 'Source', url: 'https://github.com/tkhumush/Seewaan.git' },
       { label: 'Deployment', url: 'https://github.com/tkhumush/seewaan.com.git' },
+      { label: 'nostrhood.social', url: 'https://nostrhood.social' },
     ],
     status: 'Active',
   },
