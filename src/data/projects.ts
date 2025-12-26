@@ -22,7 +22,7 @@ export const techProjects: Project[] = [
     status: 'Active',
   },
   {
-    title: 'Nostr Arabia Relay & Media',
+    title: 'Nostrarabia Relay & Media',
     summary: 'Self-hosted Nostr relay with media handling to keep regional traffic and assets close to end users.',
     links: [
       { label: 'Source', url: 'https://github.com/tkhumush/nostrarabia.git' },
