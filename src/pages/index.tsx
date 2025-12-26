@@ -94,55 +94,6 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="mt-12 scroll-mt-24" id="portfolio">
-        <div className="flex items-center justify-between mb-4">
-          <h2 className="text-2xl font-bold text-slate-900 dark:text-white">Github Portfolio</h2>
-        </div>
-        <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-6">
-          {techProjects.map((project) => {
-            const style = getStatusStyle(project.status);
-            return (
-              <div key={project.title} className="card sm:max-w-sm bg-white dark:bg-slate-900 shadow-xl border border-slate-100 dark:border-slate-700">
-                <figure>
-                  <Image
-                    src={projectImageMap[project.title] || placeholderImage}
-                    alt={project.title}
-                    width={400}
-                    height={195}
-                    className="h-[195px] w-full object-cover"
-                  />
-                </figure>
-                <div className="card-body">
-                  <div className="flex items-center justify-between mb-2">
-                    <h3 className="card-title mb-0">{project.title}</h3>
-                  </div>
-                  <div className="flex items-center gap-4 *:flex *:items-center *:gap-2 mb-2">
-                    <div>
-                      <div aria-label="status" className={`status ${style.statusClass}`}></div>
-                      <span className={style.textClass}>{style.label}</span>
-                    </div>
-                  </div>
-                  <p className="text-slate-700 dark:text-slate-300 mb-4 whitespace-pre-line">{project.summary}</p>
-                  <div className="card-actions flex flex-wrap gap-2">
-                    {project.links.map((link) => (
-                      <a
-                        key={link.url}
-                        href={link.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="btn btn-soft btn-primary btn-sm"
-                      >
-                        {link.label}
-                      </a>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      </section>
-
       <section className="mt-12 scroll-mt-24" id="work-projects">
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-2xl font-bold text-slate-900 dark:text-white">Work Projects (Power Platform & BI)</h2>
@@ -186,6 +137,55 @@ const Home = () => {
                     >
                       {project.title === 'Mentorship Program' ? 'Power App' : 'Power BI'}
                     </span>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+
+      <section className="mt-12 scroll-mt-24" id="portfolio">
+        <div className="flex items-center justify-between mb-4">
+          <h2 className="text-2xl font-bold text-slate-900 dark:text-white">Github Portfolio</h2>
+        </div>
+        <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-6">
+          {techProjects.map((project) => {
+            const style = getStatusStyle(project.status);
+            return (
+              <div key={project.title} className="card sm:max-w-sm bg-white dark:bg-slate-900 shadow-xl border border-slate-100 dark:border-slate-700">
+                <figure>
+                  <Image
+                    src={projectImageMap[project.title] || placeholderImage}
+                    alt={project.title}
+                    width={400}
+                    height={195}
+                    className="h-[195px] w-full object-cover"
+                  />
+                </figure>
+                <div className="card-body">
+                  <div className="flex items-center justify-between mb-2">
+                    <h3 className="card-title mb-0">{project.title}</h3>
+                  </div>
+                  <div className="flex items-center gap-4 *:flex *:items-center *:gap-2 mb-2">
+                    <div>
+                      <div aria-label="status" className={`status ${style.statusClass}`}></div>
+                      <span className={style.textClass}>{style.label}</span>
+                    </div>
+                  </div>
+                  <p className="text-slate-700 dark:text-slate-300 mb-4 whitespace-pre-line">{project.summary}</p>
+                  <div className="card-actions flex flex-wrap gap-2">
+                    {project.links.map((link) => (
+                      <a
+                        key={link.url}
+                        href={link.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn btn-soft btn-primary btn-sm"
+                      >
+                        {link.label}
+                      </a>
+                    ))}
                   </div>
                 </div>
               </div>
