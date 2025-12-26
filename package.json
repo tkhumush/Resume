@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "export": "rm -rf docs && next build && mv out docs && touch docs/.nojekyll && echo 'taymurkhumush.com' > docs/CNAME"
+    "lint": "eslint"
   },
   "dependencies": {
     "datamaps": "^0.5.9",
