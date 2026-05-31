@@ -8,37 +8,37 @@ Builder and management consultant who ships real, working software by directing 
 ## Things I've Built
 A sample of products I've designed, built, and shipped on my own.
 
-**1. MempoolTV**  ·  *Swift, tvOS  ·  [App Store](https://github.com/tkhumush/MempoolTV)*
-- **Why:** Bitcoin mempool data (fees, congestion, block activity) only lived in dense desktop dashboards, with no glanceable way to watch it on the biggest screen in the house.
-- **What I built:** A native Apple TV app that streams live mempool insights to the living room. Now live on the App Store, on a platform most developers never touch.
+**MempoolTV**  ·  *Swift, tvOS  ·  [App Store](https://github.com/tkhumush/MempoolTV)*
 
-**2. FastDiet: Last Meal Burner**  ·  *Swift, TypeScript  ·  [App Store](https://apps.apple.com/us/app/fastdiet-last-meal-burner/id1487273671)  ·  [PWA](https://github.com/tkhumush/FastDiet-PWA)*
-- **Why:** Conventional fasting apps run on fixed time windows and ignore how much you actually ate.
-- **What I built:** A fasting tracker that derives your eating window from "calories owed to your future self" rather than a static clock. Shipped as a native iOS app (live on the App Store) and re-platformed into an installable Progressive Web App for cross-platform reach.
+A native Apple TV app that streams live Bitcoin mempool insights to your living room. I built it because mempool data (fees, congestion, block activity) only lived in dense desktop dashboards, with no glanceable way to watch it on the biggest screen in the house. Now live on the App Store, on a platform most developers never touch.
 
-**3. Marmot: Encrypted Messaging Stack**  ·  *Rust, TypeScript  ·  [CLI](https://github.com/tkhumush/marmot-cli)  ·  [plugin](https://github.com/tkhumush/openclaw-marmot)  ·  [ClawHub](https://clawhub.ai/plugins/@tkhumush/marmot)*
-- **Why:** Secure group messaging usually means trusting a centralized server with your keys and metadata.
-- **What I built:** An end-to-end encrypted messaging stack on the Marmot Protocol (MLS): a Rust CLI for key management plus a TypeScript channel plugin, published and approved on ClawHub, so every participant holds their own keys with no central authority.
+**FastDiet: Last Meal Burner**  ·  *Swift, TypeScript  ·  [App Store](https://apps.apple.com/us/app/fastdiet-last-meal-burner/id1487273671)  ·  [PWA](https://github.com/tkhumush/FastDiet-PWA)*
 
-**4. nostrTV**  ·  *Swift, Kotlin  ·  [tvOS](https://github.com/tkhumush/nostrTV)  ·  [Android TV](https://github.com/tkhumush/nostrTV-droid)*
-- **Why:** Decentralized, open-protocol social feeds are built for phones, with no lean-back way to browse them on a big screen.
-- **What I built:** A TV app that turns open-protocol video and feeds into a living-room experience, then took the same product across stacks to two platforms. The Swift/tvOS version is in beta on TestFlight pending iOS launch, with an Android TV / Chromecast port in Kotlin.
+A fasting tracker that decides your eating window from the calories you owe your future self instead of a fixed clock, since conventional fasting apps run on static time windows and ignore how much you actually ate. I shipped it as a native iOS app (live on the App Store), then re-platformed it into an installable Progressive Web App for cross-platform reach.
 
-**5. BASIC Circassian**  ·  *TypeScript  ·  [repo](https://github.com/tkhumush/BASIC_Circassian)*
-- **Why:** Circassian, an endangered heritage language, has almost no modern, approachable learning tools online.
-- **What I built:** A clean, deployable web app that teaches the basics of the language, a personal-heritage project that doubles as a polished learning UI.
+**Marmot: Encrypted Messaging Stack**  ·  *Rust, TypeScript  ·  [CLI](https://github.com/tkhumush/marmot-cli)  ·  [plugin](https://github.com/tkhumush/openclaw-marmot)  ·  [ClawHub](https://clawhub.ai/plugins/@tkhumush/marmot)*
 
-**6. Zaplan**  ·  *Svelte  ·  [repo](https://github.com/tkhumush/zaplan)*
-- **Why:** To-do and planning apps lock your data into a single proprietary service.
-- **What I built:** A to-do and project-planning web app on an open protocol with encrypted storage. My most-adopted open-source project, forked by other developers.
+An end-to-end encrypted messaging stack on the Marmot Protocol (MLS), built so people don't have to trust a centralized server with their keys and metadata. It pairs a Rust CLI for key management with a TypeScript channel plugin (published and approved on ClawHub), giving every participant their own keys with no central authority.
 
-**7. Bitcoin District Relay**  ·  *self-hosted infrastructure  ·  [repo](https://github.com/tkhumush/BitcoinDistrictRelay)*
-- **Why:** Communities relying on public infrastructure have no control over uptime, content, or media hosting.
-- **What I built:** A self-hosted relay and media server so a local community can keep its traffic and media under its own control.
+**nostrTV**  ·  *Swift, Kotlin  ·  [tvOS](https://github.com/tkhumush/nostrTV)  ·  [Android TV](https://github.com/tkhumush/nostrTV-droid)*
 
-**8. Oneword**  ·  *TypeScript  ·  [repo](https://github.com/tkhumush/Oneword)*
-- **Why:** Long-form reading on social-feed clients is cluttered and slow.
-- **What I built:** A stripped-down reader focused on fast, distraction-free consumption of long-form notes.
+A TV app that turns open-protocol social video and feeds into a lean-back living-room experience, since those feeds are otherwise built only for phones. I took the same product across stacks to two platforms: the Swift/tvOS version is in beta on TestFlight pending its iOS launch, alongside an Android TV and Chromecast port in Kotlin.
+
+**BASIC Circassian**  ·  *TypeScript  ·  [repo](https://github.com/tkhumush/BASIC_Circassian)*
+
+A clean, deployable web app that teaches the basics of Circassian, an endangered heritage language with almost no modern, approachable learning tools online. It's a personal-heritage project that doubles as a polished language-learning UI.
+
+**Zaplan**  ·  *Svelte  ·  [repo](https://github.com/tkhumush/zaplan)*
+
+A to-do and project-planning web app built on an open protocol with encrypted storage, so your tasks aren't locked into a single proprietary service. It's my most-adopted open-source project, forked by other developers.
+
+**Bitcoin District Relay**  ·  *self-hosted infrastructure  ·  [repo](https://github.com/tkhumush/BitcoinDistrictRelay)*
+
+A self-hosted relay and media server that lets a local community keep its traffic and media under its own control instead of depending on public infrastructure it can't influence.
+
+**Oneword**  ·  *TypeScript  ·  [repo](https://github.com/tkhumush/Oneword)*
+
+A stripped-down reader for fast, distraction-free long-form reading, built because most social-feed clients make long posts cluttered and slow to get through.
 
 ## Technical Range
 **Languages:** Swift, Rust, Kotlin, TypeScript, JavaScript, Svelte
