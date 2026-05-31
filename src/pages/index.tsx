@@ -5,11 +5,10 @@ import { techProjects, workProjects } from '@/data/projects';
 
 const placeholderImage = 'https://cdn.flyonui.com/fy-assets/components/card/image-9.png';
 const projectImageMap: Record<string, string> = {
-  'Nostrhood - A nostr client': '/assets/seewaan.png',
-  'Nostrarabia Relay & Media': '/assets/nostrarabia.png',
-  'Mempool TV': '/assets/mempoolTV.png',
-  'nostrTV (tvOS & AndroidTV)': '/assets/nostrTV.png',
-  FastDiet: '/assets/fastdiet.webp',
+  MempoolTV: '/assets/mempoolTV.png',
+  'FastDiet: Last Meal Burner': '/assets/fastdiet.webp',
+  'nostrTV (tvOS & Android TV)': '/assets/nostrTV.png',
+  'Seewaan / Nostrhood.social + Community Relays': '/assets/seewaan.png',
 };
 
 type StatusStyle = {
