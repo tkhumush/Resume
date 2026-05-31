@@ -14,7 +14,7 @@ Built and shipped a native Apple TV app that streams live Bitcoin mempool insigh
 
 **FastDiet: Last Meal Burner**  ·  *Swift, TypeScript  ·  [App Store](https://apps.apple.com/us/app/fastdiet-last-meal-burner/id1487273671)  ·  [PWA](https://github.com/tkhumush/FastDiet-PWA)*
 
-Built a fasting tracker that sets your eating window from the calories you owe your future self instead of a fixed clock, addressing how conventional fasting apps run on static time windows and ignore how much you actually ate. Shipped it as a native iOS app (live on the App Store), then re-platformed it into an installable Progressive Web App for cross-platform reach.
+Built a fasting tracker that calculates the fasting window from calories owed rather than a fixed clock, addressing how conventional fasting apps run on static time windows and ignore how much someone actually ate. Shipped it as a native iOS app (live on the App Store), then re-platformed it into an installable Progressive Web App for cross-platform reach.
 
 **Marmot: Encrypted Messaging Stack**  ·  *Rust, TypeScript  ·  [CLI](https://github.com/tkhumush/marmot-cli)  ·  [plugin](https://github.com/tkhumush/openclaw-marmot)  ·  [ClawHub](https://clawhub.ai/plugins/@tkhumush/marmot)*
 
