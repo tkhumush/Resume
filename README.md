@@ -1,6 +1,6 @@
 # Taymur Khumush
 
-Virginia, USA  ·  [github.com/tkhumush](https://github.com/tkhumush)
+Virginia, USA  ·  tkhemesh@gmail.com  ·  [github.com/tkhumush](https://github.com/tkhumush)
 
 ## Summary
 Builder and management consultant who ships real, working software by directing AI tools across whatever stack the problem demands, from native mobile and TV apps to web clients, CLIs, and back-end infrastructure. Over a decade in **Human Capital and data analytics**, now channeled into a prolific independent portfolio of shipped products. Moves quickly from idea to deployed product, and excels at turning a fuzzy problem into a concrete, working solution.
@@ -9,7 +9,7 @@ Builder and management consultant who ships real, working software by directing 
 Two years of daily AI-assisted development ("vibe coding") across 40+ projects, fluent with agentic coding tools and MCP servers to plan, build, and ship features fast. Speed is paired with engineering discipline: feature branches for every change, pull requests with clear, descriptive commits, and testing on a branch before merging to keep the main line stable. The result is rapid iteration that still produces maintainable, reviewable code. The work below is a sample of where that approach has shipped.
 
 ## Things I've Built
-A sample of products I've designed, built, and shipped on my own.
+A sample of products designed, built, and shipped independently.
 
 **MempoolTV**  ·  *Swift, tvOS  ·  [App Store](https://apps.apple.com/us/app/mempooltv/id6751822510)  ·  [repo](https://github.com/tkhumush/MempoolTV)*
 
@@ -33,7 +33,7 @@ Built a clean, deployable web app that teaches the basics of Circassian, an enda
 
 **Zaplan**  ·  *Svelte  ·  [repo](https://github.com/tkhumush/zaplan)*
 
-Built a to-do and project-planning web app on an open protocol with encrypted storage, so tasks aren't locked into a single proprietary service. My most-adopted open-source project, forked by other developers.
+Built a to-do and project-planning web app on an open protocol with encrypted storage, so tasks aren't locked into a single proprietary service. The most-adopted of these open-source projects, forked by other developers.
 
 **Seewaan / Nostrhood.social + Community Relays**  ·  *TypeScript, self-hosted infrastructure  ·  [seewaan.com](https://seewaan.com)  ·  [client](https://github.com/tkhumush/Seewaan)  ·  [relay](https://github.com/tkhumush/BitcoinDistrictRelay)*
 
