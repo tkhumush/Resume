@@ -61,12 +61,16 @@ Selected solutions designed and deployed:
 
 ## Consulting & Career
 **Workforce Planning Specialist**, Washington Metropolitan Area Transit Authority (WMATA), Washington, DC (Current)
+Drives workforce planning and analytics for a major transit agency, building the dashboards and Power Apps above to guide succession, staffing, and talent-mobility decisions.
 
 **Consulting Senior Manager**, Eagle Hill Consulting, Washington, DC (02/2021 to Present)
+Led data analysis and change management for federal and private-sector clients, including a 120+ person change network supporting a federal reorganization and a return-to-office effort for 1,300 employees, while strengthening hiring, promotion, and governance processes through analytics.
 
 **Human Resources Project Manager**, Natural Resources Defense Council, NY (08/2019 to 02/2020)
+Rolled out a new compensation structure, managing cross-calibration, pay adjustments, and the related financial reporting.
 
 **Senior Consultant**, Business Insights Consulting, MENA & GCC (05/2012 to 06/2019)
+Delivered strategy, workforce planning, and HRIS modernization for clients across Riyadh, Amman, and Doha over seven years in the region.
 
 ## Education
 **B.Sc. in Industrial Engineering (2012)**, Jordan University of Science and Technology, Jordan
