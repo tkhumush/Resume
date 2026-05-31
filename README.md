@@ -48,22 +48,25 @@ Built a stripped-down reader for fast, distraction-free long-form reading, since
 **Platforms:** tvOS / Apple TV, Android TV, iOS, web (PWA), CLI, self-hosted back-end services
 **Approach:** AI-assisted ("vibe coding") rapid prototyping and shipping, from idea to deployed product, fast.
 
-## Professional Experience (Human Capital & Analytics)
-**Workforce Planning Specialist, Washington Metropolitan Area Transit Authority (WMATA), Washington, DC (Current)**
-- Built Power BI dashboards (Retirement, Supply, Termination, Overtime) to track eligibility, forecast departures, and surface attrition and cost drivers.
-- Created a Career Path Competency Explorer and History Analysis to map roles, skills, and mobility trends.
-- Designed a Mentorship Program Power App for intake, mentor/mentee matching, and outcomes tracking.
+## Data Analytics & Power Platform
+A decade of turning workforce data into decisions, built on the Microsoft Power Platform. Designed and deployed Power BI dashboards, Power Apps, and end-to-end data models that give HR and leadership teams clear, real-time visibility into eligibility, attrition, cost, and talent mobility. The same instinct for translating a messy problem into a working tool that drives the software above has shaped years of analytics delivery in the enterprise.
 
-**Consulting Senior Manager, Eagle Hill Consulting, Washington, DC (02/2021 to Present)**
-- Led data analysis for a pilot assessment and recommended KPIs; produced 15+ leadership reports from employee feedback.
-- Managed a 120+ person Change Network supporting a federal reorganization; oversaw Return to Office for 1,300 employees.
-- Implemented hiring/promotion processes and strengthened governance via analytics, SOPs, and process design.
+Selected solutions designed and deployed:
+- **Retirement Dashboard (Power BI)** to track eligibility, forecast departures, and prioritize succession risk.
+- **Supply, Termination, and Overtime Dashboards (Power BI)** to surface attrition hotspots, staffing gaps, and cost drivers.
+- **Career Path Competency Explorer (Power BI)** to map roles to skills and readiness signals for mobility planning.
+- **Career Path History Analysis (Power BI)** to reveal movement patterns and progression bottlenecks.
+- **Mentorship Program (Power App)** for participant intake, mentor/mentee matching, and outcomes tracking.
+- **Employee feedback reporting** producing 15+ custom leadership reports and engagement dashboards.
 
-**Human Resources Project Manager, Natural Resources Defense Council, NY (08/2019 to 02/2020)**
-- Rolled out a new compensation structure, managed cross-calibration, and executed adjustments with financial reporting.
+## Consulting & Career
+**Workforce Planning Specialist**, Washington Metropolitan Area Transit Authority (WMATA), Washington, DC (Current)
 
-**Senior Consultant, Business Insights Consulting, MENA & GCC (05/2012 to 06/2019)**
-- Delivered strategy, workforce planning, and HRIS modernization across Riyadh, Amman, and Doha.
+**Consulting Senior Manager**, Eagle Hill Consulting, Washington, DC (02/2021 to Present)
+
+**Human Resources Project Manager**, Natural Resources Defense Council, NY (08/2019 to 02/2020)
+
+**Senior Consultant**, Business Insights Consulting, MENA & GCC (05/2012 to 06/2019)
 
 ## Education
 **B.Sc. in Industrial Engineering (2012)**, Jordan University of Science and Technology, Jordan
