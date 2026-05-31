@@ -1,57 +1,70 @@
-# Taymur Khumush — Resume
+# Taymur Khumush
 
-Virginia, USA
+Virginia, USA · [github.com/tkhumush](https://github.com/tkhumush)
 
 ## Summary
-Management Consultant with over a decade of experience in **Human Capital and workforce development**, supporting federal and private-sector clients. I help human capital teams increase effectiveness by designing and deploying **Power Platform solutions**, data analytics, and AI-enabled tools—bringing **exceptional proficiency in applying AI technologies to design, build, and accelerate technical solutions** that modernize systems, strengthen insights, and improve overall performance.
+Builder and management consultant who ships real, working software by directing AI tools across whatever stack the problem demands — Swift, Rust, Kotlin, TypeScript, JavaScript, and Svelte. Over a decade in **Human Capital and data analytics**, now channeled into a prolific independent portfolio of shipped apps spanning Apple TV, Android TV, mobile, web, CLIs, and back-end infrastructure. I move quickly from idea to deployed product, and I'm at my best turning a fuzzy problem into a concrete, working solution.
 
-## Human Capital Experience
-**Workforce Planning Specialist — Washington Metropolitan Area Transit Authority (WMATA), Washington, DC, USA (Current)**  
-- Built a Power BI Retirement Dashboard to track eligibility, forecast departures, and prioritize succession actions.  
-- Created a Career Path Competency Explorer to map roles, skills, and readiness signals for mobility planning.  
-- Developed a Career Path History Analysis to surface movement trends and progression bottlenecks.  
-- Delivered Supply Analysis dashboards to monitor headcount supply against staffing plans and pipelines.  
-- Produced Termination Analysis and Overtime Analysis dashboards to highlight attrition hotspots and cost drivers.  
-- Designed a Mentorship Program Power App to intake participants, match mentors/mentees, and track outcomes.
+## Selected Projects — Problem → Solution
+A sample of things I've designed, built, and shipped. Every link is a public repo.
 
-**Consulting Senior Manager — Eagle Hill Consulting, Washington DC, USA (02/2021 – Present)**  
-- Led data analysis for a Pilot Project Assessment and recommended KPIs for future tracking.  
-- Managed a Change Network (30+ Change Leaders, 90 Ambassadors) supporting a federal reorganization.  
-- Produced 15+ custom leadership reports from employee feedback; improved Employee Engagement UX with dashboards.  
-- Overhauled inspection process via analytics; strengthened governance, records, and coordination.  
-- Implemented hiring and promotion processes; accelerated recruiting and two promotion cycles for 200 staff.  
-- Oversaw Return to Office for 1300 employees; built interim tracking during system updates.  
-- Optimized strategy development with process flowcharts, SOPs, and communications.
+**1. MempoolTV** — *Swift / tvOS · [repo](https://github.com/tkhumush/MempoolTV)*
+- **Problem:** Bitcoin mempool data (fees, congestion, block activity) lives in dense dashboards built for desktops — there was no ambient, glanceable way to monitor it on the biggest screen in the house.
+- **Solution:** Built and shipped a native Apple TV app that streams live mempool insights to the living room — targeting a platform most developers never touch.
 
-**Human Resources Project Manager — Natural Resources Defense Council, NY, USA (08/2019 - 02/2020)**  
-- Rolled out a new compensation structure and managed cross-calibration.  
-- Executed compensation adjustments and financial reporting for project costs.  
-- Led grievance and appeal procedures for job placements and final recalibration.  
-- Corrected 403b deferrals and contributions.
+**2. FastDiet (PWA)** — *TypeScript · [repo](https://github.com/tkhumush/FastDiet-PWA)*
+- **Problem:** Conventional fasting apps run on fixed time windows and ignore how much you actually ate.
+- **Solution:** Built a fasting tracker that derives your eating window from "calories owed to your future self" rather than a static clock, shipped as an installable Progressive Web App (re-platformed from an earlier native iOS build).
 
-**Senior Consultant — Business Insights Consulting, MENA & GCC (05/2012 - 06/2019)**  
-- Built strategy for a blended-learning university in Riyadh; aligned offerings with market needs.  
-- Led strategy development initiatives with environmental scans and stakeholder interviews.  
-- Refreshed operating models in Riyadh to support execution.  
-- Delivered workforce planning in Amman to address staffing gaps and redundancies.  
-- Managed HRIS transitions in Riyadh; modernized HR policies (ER, performance, L&D, incentives, succession).  
-- Advised a board in Doha on strategy implementation and governance cadence.
+**3. Marmot — Encrypted Messaging Stack** — *Rust + TypeScript · [CLI](https://github.com/tkhumush/marmot-cli) · [plugin](https://github.com/tkhumush/openclaw-marmot)*
+- **Problem:** Secure group messaging usually means trusting a centralized server with your keys and metadata.
+- **Solution:** Built an end-to-end encrypted messaging stack on the Marmot Protocol (MLS) — a Rust CLI for key management plus a TypeScript channel plugin — so every participant holds their own keys with no central authority.
 
-## GitHub Portfolio (Tech Projects)
-- **Seewaan Nostr Client** — Open-source Nostr client with media support; deployment at seewaan.com. *(Active)*  
-- **Nostr Arabia Relay & Media** — Self-hosted relay with media handling to keep traffic local. *(Active)*  
-- **Mempool TV** — Apple TV app streaming Bitcoin mempool insights. *(Released)*  
-- **nostrTV (tvOS & AndroidTV)** — In-progress Nostr TV app for big-screen feeds. *(Work in progress)*  
-- **FastDiet** — Mobile app for last-meal tracking and fasting windows. *(Released)*
+**4. nostrTV** — *Swift / tvOS · [repo](https://github.com/tkhumush/nostrTV)*
+- **Problem:** Decentralized, open-protocol social feeds are built for phones; there was no lean-back, big-screen way to browse them.
+- **Solution:** Built a tvOS app that turns open-protocol video and feeds into a living-room experience — my most-starred app.
 
-## Work Projects (Power Platform & BI)
-- **Retirement Dashboard** — Eligibility tracking and succession risk. *(Deployed)*  
-- **Career Path Competency Explorer** — Roles to competencies and readiness signals. *(Deployed)*  
-- **Career Path History Analysis** — Movement patterns and progression bottlenecks. *(Deployed)*  
-- **Supply Analysis Dashboard** — Headcount supply vs. workforce plans and pipelines. *(Deployed)*  
-- **Termination Analysis Dashboard** — Attrition drivers by function and tenure. *(Deployed)*  
-- **Overtime Analysis Dashboard** — Overtime trends and cost drivers. *(Deployed)*  
-- **Mentorship Program** — Power App for intake, matching, and outcomes tracking. *(Deployed)*
+**5. nostrTV for Android TV** — *Kotlin · [repo](https://github.com/tkhumush/nostrTV-droid)*
+- **Problem:** nostrTV only reached Apple households.
+- **Solution:** Re-targeted the same product to Android TV / Chromecast in Kotlin — taking a proven concept to a second platform and language quickly.
+
+**6. BASIC Circassian** — *TypeScript · [repo](https://github.com/tkhumush/BASIC_Circassian)*
+- **Problem:** Circassian, an endangered heritage language, has almost no modern, approachable learning tools online.
+- **Solution:** Built a clean, deployable web app that teaches the basics of the language — a personal-heritage project doubling as a polished learning UI.
+
+**7. Zaplan** — *Svelte · [repo](https://github.com/tkhumush/zaplan)*
+- **Problem:** To-do and planning apps lock your data into a single proprietary service.
+- **Solution:** Built a to-do and project-planning web app on an open protocol with encrypted storage — my most-adopted open-source project, forked by other developers.
+
+**8. Bitcoin District Relay** — *self-hosted infrastructure · [repo](https://github.com/tkhumush/BitcoinDistrictRelay)*
+- **Problem:** Communities relying on public infrastructure have no control over uptime, content, or media hosting.
+- **Solution:** Stood up a self-hosted relay and media server so a local community can keep its traffic and media under its own control.
+
+**9. Oneword** — *TypeScript · [repo](https://github.com/tkhumush/Oneword)*
+- **Problem:** Long-form reading on social-feed clients is cluttered and slow.
+- **Solution:** Built a stripped-down reader focused on fast, distraction-free consumption of long-form notes.
+
+## Technical Range
+**Languages:** Swift, Rust, Kotlin, TypeScript, JavaScript, Svelte
+**Platforms:** tvOS / Apple TV, Android TV, iOS, web (PWA), CLI, self-hosted back-end services
+**Approach:** AI-assisted ("vibe coding") rapid prototyping and shipping — idea to deployed product, fast.
+
+## Professional Experience (Human Capital & Analytics)
+**Workforce Planning Specialist — Washington Metropolitan Area Transit Authority (WMATA), Washington, DC (Current)**
+- Built Power BI dashboards (Retirement, Supply, Termination, Overtime) to track eligibility, forecast departures, and surface attrition and cost drivers.
+- Created a Career Path Competency Explorer and History Analysis to map roles, skills, and mobility trends.
+- Designed a Mentorship Program Power App for intake, mentor/mentee matching, and outcomes tracking.
+
+**Consulting Senior Manager — Eagle Hill Consulting, Washington, DC (02/2021 – Present)**
+- Led data analysis for a pilot assessment and recommended KPIs; produced 15+ leadership reports from employee feedback.
+- Managed a 120+ person Change Network supporting a federal reorganization; oversaw Return to Office for 1,300 employees.
+- Implemented hiring/promotion processes and strengthened governance via analytics, SOPs, and process design.
+
+**Human Resources Project Manager — Natural Resources Defense Council, NY (08/2019 – 02/2020)**
+- Rolled out a new compensation structure, managed cross-calibration, and executed adjustments with financial reporting.
+
+**Senior Consultant — Business Insights Consulting, MENA & GCC (05/2012 – 06/2019)**
+- Delivered strategy, workforce planning, and HRIS modernization across Riyadh, Amman, and Doha.
 
 ## Education
-- **B. Sc. in Industrial Engineering (2012)** — Jordan University of Science and Technology, Jordan
+**B.Sc. in Industrial Engineering (2012)** — Jordan University of Science and Technology, Jordan
