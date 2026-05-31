@@ -1,57 +1,71 @@
-# Taymur Khumush — Resume
+# Taymur Khumush
 
-Virginia, USA
+Virginia, USA  ·  tkhumush@outlook.com  ·  [github.com/tkhumush](https://github.com/tkhumush)
 
 ## Summary
-Management Consultant with over a decade of experience in **Human Capital and workforce development**, supporting federal and private-sector clients. I help human capital teams increase effectiveness by designing and deploying **Power Platform solutions**, data analytics, and AI-enabled tools—bringing **exceptional proficiency in applying AI technologies to design, build, and accelerate technical solutions** that modernize systems, strengthen insights, and improve overall performance.
+Builder and management consultant who ships real, working software by directing AI tools across whatever stack the problem demands, from native mobile and TV apps to web clients, CLIs, and back-end infrastructure. Over a decade in **Human Capital and data analytics**, now channeled into a prolific independent portfolio of shipped products. Moves quickly from idea to deployed product, and excels at turning a fuzzy problem into a concrete, working solution.
 
-## Human Capital Experience
-**Workforce Planning Specialist — Washington Metropolitan Area Transit Authority (WMATA), Washington, DC, USA (Current)**  
-- Built a Power BI Retirement Dashboard to track eligibility, forecast departures, and prioritize succession actions.  
-- Created a Career Path Competency Explorer to map roles, skills, and readiness signals for mobility planning.  
-- Developed a Career Path History Analysis to surface movement trends and progression bottlenecks.  
-- Delivered Supply Analysis dashboards to monitor headcount supply against staffing plans and pipelines.  
-- Produced Termination Analysis and Overtime Analysis dashboards to highlight attrition hotspots and cost drivers.  
-- Designed a Mentorship Program Power App to intake participants, match mentors/mentees, and track outcomes.
+## How I Work
+Two years of daily AI-assisted development ("vibe coding") across 40+ projects, fluent with agentic coding tools and MCP servers to plan, build, and ship features fast. Speed is paired with engineering discipline: feature branches for every change, pull requests with clear, descriptive commits, and testing on a branch before merging to keep the main line stable. The result is rapid iteration that still produces maintainable, reviewable code. The work below is a sample of where that approach has shipped.
 
-**Consulting Senior Manager — Eagle Hill Consulting, Washington DC, USA (02/2021 – Present)**  
-- Led data analysis for a Pilot Project Assessment and recommended KPIs for future tracking.  
-- Managed a Change Network (30+ Change Leaders, 90 Ambassadors) supporting a federal reorganization.  
-- Produced 15+ custom leadership reports from employee feedback; improved Employee Engagement UX with dashboards.  
-- Overhauled inspection process via analytics; strengthened governance, records, and coordination.  
-- Implemented hiring and promotion processes; accelerated recruiting and two promotion cycles for 200 staff.  
-- Oversaw Return to Office for 1300 employees; built interim tracking during system updates.  
-- Optimized strategy development with process flowcharts, SOPs, and communications.
+## Things I've Built
+A sample of products designed, built, and shipped independently.
 
-**Human Resources Project Manager — Natural Resources Defense Council, NY, USA (08/2019 - 02/2020)**  
-- Rolled out a new compensation structure and managed cross-calibration.  
-- Executed compensation adjustments and financial reporting for project costs.  
-- Led grievance and appeal procedures for job placements and final recalibration.  
-- Corrected 403b deferrals and contributions.
+**MempoolTV**  ·  *Swift, tvOS  ·  [App Store](https://apps.apple.com/us/app/mempooltv/id6751822510)  ·  [repo](https://github.com/tkhumush/MempoolTV)*
 
-**Senior Consultant — Business Insights Consulting, MENA & GCC (05/2012 - 06/2019)**  
-- Built strategy for a blended-learning university in Riyadh; aligned offerings with market needs.  
-- Led strategy development initiatives with environmental scans and stakeholder interviews.  
-- Refreshed operating models in Riyadh to support execution.  
-- Delivered workforce planning in Amman to address staffing gaps and redundancies.  
-- Managed HRIS transitions in Riyadh; modernized HR policies (ER, performance, L&D, incentives, succession).  
-- Advised a board in Doha on strategy implementation and governance cadence.
+Built and shipped a native Apple TV app that streams live Bitcoin mempool insights to the living room, after finding the data (fees, congestion, block activity) only lived in dense desktop dashboards with no glanceable big-screen view. Now live on the App Store, on a platform most developers never touch.
 
-## GitHub Portfolio (Tech Projects)
-- **Seewaan Nostr Client** — Open-source Nostr client with media support; deployment at seewaan.com. *(Active)*  
-- **Nostr Arabia Relay & Media** — Self-hosted relay with media handling to keep traffic local. *(Active)*  
-- **Mempool TV** — Apple TV app streaming Bitcoin mempool insights. *(Released)*  
-- **nostrTV (tvOS & AndroidTV)** — In-progress Nostr TV app for big-screen feeds. *(Work in progress)*  
-- **FastDiet** — Mobile app for last-meal tracking and fasting windows. *(Released)*
+**FastDiet: Last Meal Burner**  ·  *Swift, TypeScript  ·  [App Store](https://apps.apple.com/us/app/fastdiet-last-meal-burner/id1487273671)  ·  [PWA](https://github.com/tkhumush/FastDiet-PWA)*
 
-## Work Projects (Power Platform & BI)
-- **Retirement Dashboard** — Eligibility tracking and succession risk. *(Deployed)*  
-- **Career Path Competency Explorer** — Roles to competencies and readiness signals. *(Deployed)*  
-- **Career Path History Analysis** — Movement patterns and progression bottlenecks. *(Deployed)*  
-- **Supply Analysis Dashboard** — Headcount supply vs. workforce plans and pipelines. *(Deployed)*  
-- **Termination Analysis Dashboard** — Attrition drivers by function and tenure. *(Deployed)*  
-- **Overtime Analysis Dashboard** — Overtime trends and cost drivers. *(Deployed)*  
-- **Mentorship Program** — Power App for intake, matching, and outcomes tracking. *(Deployed)*
+Built a fasting tracker that calculates the fasting window from calories owed rather than a fixed clock, addressing how conventional fasting apps run on static time windows and ignore how much someone actually ate. Shipped it as a native iOS app (live on the App Store), then re-platformed it into an installable Progressive Web App for cross-platform reach.
+
+**Marmot: Encrypted Messaging Stack**  ·  *Rust, TypeScript  ·  [CLI](https://github.com/tkhumush/marmot-cli)  ·  [plugin](https://github.com/tkhumush/openclaw-marmot)  ·  [ClawHub](https://clawhub.ai/plugins/@tkhumush/marmot)*
+
+Built an end-to-end encrypted messaging stack on the Marmot Protocol (MLS) so people don't have to trust a centralized server with their keys and metadata. Paired a Rust CLI for key management with a TypeScript channel plugin (published and approved on ClawHub), giving every participant their own keys with no central authority.
+
+**nostrTV**  ·  *Swift, Kotlin  ·  [tvOS](https://github.com/tkhumush/nostrTV)  ·  [Android TV](https://github.com/tkhumush/nostrTV-droid)*
+
+Built a TV app that turns open-protocol social video and feeds into a lean-back living-room experience, since those feeds are otherwise made only for phones. Took the same product across stacks to two platforms: the Swift/tvOS version is in beta on TestFlight pending its iOS launch, alongside an Android TV and Chromecast port in Kotlin.
+
+**BASIC Circassian**  ·  *TypeScript  ·  [repo](https://github.com/tkhumush/BASIC_Circassian)*
+
+Built a clean, deployable web app that teaches the basics of Circassian, an endangered heritage language with almost no modern, approachable learning tools online. A personal-heritage project that doubles as a polished language-learning UI.
+
+**Zaplan**  ·  *Svelte  ·  [repo](https://github.com/tkhumush/zaplan)*
+
+Built a to-do and project-planning web app on an open protocol with encrypted storage, so tasks aren't locked into a single proprietary service. The most-adopted of these open-source projects, forked by other developers.
+
+**Seewaan / Nostrhood.social + Community Relays**  ·  *TypeScript, self-hosted infrastructure  ·  [seewaan.com](https://seewaan.com)  ·  [client](https://github.com/tkhumush/Seewaan)  ·  [relay](https://github.com/tkhumush/BitcoinDistrictRelay)*
+
+Shipped a full-stack social experience: a Nostr web client (forked from Jumble) deployed at seewaan.com, also known as nostrhood.social, paired with self-hosted relay and media servers so a community can keep its traffic, content, and media entirely under its own control instead of depending on public infrastructure it can't influence.
+
+**Oneword**  ·  *TypeScript  ·  [repo](https://github.com/tkhumush/Oneword)*
+
+Built a stripped-down reader for fast, distraction-free long-form reading, since most social-feed clients make long posts cluttered and slow to get through.
+
+## Data Analytics & Power Platform
+A decade of turning workforce data into decisions, built on the Microsoft Power Platform. Designed and deployed Power BI dashboards, Power Apps, and end-to-end data models that give HR and leadership teams clear, real-time visibility into eligibility, attrition, cost, and talent mobility. The same instinct for translating a messy problem into a working tool that drives the software above has shaped years of analytics delivery in the enterprise.
+
+Selected solutions designed and deployed:
+- **Retirement Dashboard (Power BI)** to track eligibility, forecast departures, and prioritize succession risk.
+- **Supply, Termination, and Overtime Dashboards (Power BI)** to surface attrition hotspots, staffing gaps, and cost drivers.
+- **Career Path Competency Explorer (Power BI)** to map roles to skills and readiness signals for mobility planning.
+- **Career Path History Analysis (Power BI)** to reveal movement patterns and progression bottlenecks.
+- **Mentorship Program (Power App)** for participant intake, mentor/mentee matching, and outcomes tracking.
+- **Employee feedback reporting** producing 15+ custom leadership reports and engagement dashboards.
+
+## Consulting & Career
+**Workforce Planning Specialist**, Washington Metropolitan Area Transit Authority (WMATA), Washington, DC (Current)
+Drives workforce planning and analytics for a major transit agency, building the dashboards and Power Apps above to guide succession, staffing, and talent-mobility decisions.
+
+**Consulting Senior Manager**, Eagle Hill Consulting, Washington, DC (02/2021 to Present)
+Led data analysis and change management for federal and private-sector clients, including a 120+ person change network supporting a federal reorganization and a return-to-office effort for 1,300 employees, while strengthening hiring, promotion, and governance processes through analytics.
+
+**Human Resources Project Manager**, Natural Resources Defense Council, NY (08/2019 to 02/2020)
+Rolled out a new compensation structure, managing cross-calibration, pay adjustments, and the related financial reporting.
+
+**Senior Consultant**, Business Insights Consulting, MENA & GCC (05/2012 to 06/2019)
+Delivered strategy, workforce planning, and HRIS modernization for clients across Riyadh, Amman, and Doha over seven years in the region.
 
 ## Education
-- **B. Sc. in Industrial Engineering (2012)** — Jordan University of Science and Technology, Jordan
+**B.Sc. in Industrial Engineering (2012)**, Jordan University of Science and Technology, Jordan
