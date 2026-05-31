@@ -18,14 +18,14 @@ const Header = () => {
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-2 text-sm font-medium">
           <ThemeToggle />
-          <Link href="/human_capital" className="btn btn-soft btn-primary btn-sm">
-            Human Capital
+          <Link href="/#portfolio" className="btn btn-soft btn-primary btn-sm">
+            Github Portfolio
           </Link>
           <Link href="/#work-projects" className="btn btn-soft btn-primary btn-sm">
             Power Platform
           </Link>
-          <Link href="/#portfolio" className="btn btn-soft btn-primary btn-sm">
-            Github Portfolio
+          <Link href="/human_capital" className="btn btn-soft btn-primary btn-sm">
+            Human Capital
           </Link>
           <Link href="/contact" className="btn btn-gradient btn-primary btn-sm text-white">
             Contact
@@ -60,11 +60,11 @@ const Header = () => {
         <div className="md:hidden bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-700">
           <div className="container mx-auto px-4 py-4 flex flex-col gap-3">
             <Link
-              href="/human_capital"
+              href="/#portfolio"
               className="btn btn-soft btn-primary btn-md w-full"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Human Capital
+              Github Portfolio
             </Link>
             <Link
               href="/#work-projects"
@@ -74,11 +74,11 @@ const Header = () => {
               Power Platform
             </Link>
             <Link
-              href="/#portfolio"
+              href="/human_capital"
               className="btn btn-soft btn-primary btn-md w-full"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Github Portfolio
+              Human Capital
             </Link>
             <Link
               href="/contact"
