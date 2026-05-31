@@ -16,7 +16,7 @@ A sample of things I've designed, built, and shipped. Every link is a public rep
 - **Problem:** Conventional fasting apps run on fixed time windows and ignore how much you actually ate.
 - **Solution:** Built a fasting tracker that derives your eating window from "calories owed to your future self" rather than a static clock — shipped as a native iOS app (live on the **App Store**) and re-platformed into an installable Progressive Web App for cross-platform reach.
 
-**3. Marmot — Encrypted Messaging Stack** — *Rust + TypeScript · [CLI](https://github.com/tkhumush/marmot-cli) · [plugin](https://github.com/tkhumush/openclaw-marmot)*
+**3. Marmot — Encrypted Messaging Stack** — *Rust + TypeScript · [CLI](https://github.com/tkhumush/marmot-cli) · [plugin](https://github.com/tkhumush/openclaw-marmot) · [ClawHub](https://clawhub.ai/plugins/@tkhumush/marmot)*
 - **Problem:** Secure group messaging usually means trusting a centralized server with your keys and metadata.
 - **Solution:** Built an end-to-end encrypted messaging stack on the Marmot Protocol (MLS) — a Rust CLI for key management plus a TypeScript channel plugin (**published and approved on ClawHub**) — so every participant holds their own keys with no central authority.
 
