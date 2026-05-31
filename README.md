@@ -3,7 +3,7 @@
 Virginia, USA  ·  [github.com/tkhumush](https://github.com/tkhumush)
 
 ## Summary
-Builder and management consultant who ships real, working software by directing AI tools across whatever stack the problem demands: Swift, Rust, Kotlin, TypeScript, JavaScript, and Svelte. Over a decade in **Human Capital and data analytics**, now channeled into a prolific independent portfolio of shipped apps spanning Apple TV, Android TV, mobile, web, CLIs, and back-end infrastructure. I move quickly from idea to deployed product, and I'm at my best turning a fuzzy problem into a concrete, working solution.
+Builder and management consultant who ships real, working software by directing AI tools across whatever stack the problem demands: Swift, Rust, Kotlin, TypeScript, JavaScript, and Svelte. Over a decade in **Human Capital and data analytics**, now channeled into a prolific independent portfolio of shipped apps spanning Apple TV, Android TV, mobile, web, CLIs, and back-end infrastructure. Moves quickly from idea to deployed product, and excels at turning a fuzzy problem into a concrete, working solution.
 
 ## Things I've Built
 A sample of products I've designed, built, and shipped on my own.
