@@ -43,11 +43,6 @@ Shipped a full-stack social experience: a Nostr web client (forked from Jumble) 
 
 Built a stripped-down reader for fast, distraction-free long-form reading, since most social-feed clients make long posts cluttered and slow to get through.
 
-## Technical Range
-**Languages:** Swift, Rust, Kotlin, TypeScript, JavaScript, Svelte
-**Platforms:** tvOS / Apple TV, Android TV, iOS, web (PWA), CLI, self-hosted back-end services
-**Approach:** AI-assisted ("vibe coding") rapid prototyping and shipping, from idea to deployed product, fast.
-
 ## Data Analytics & Power Platform
 A decade of turning workforce data into decisions, built on the Microsoft Power Platform. Designed and deployed Power BI dashboards, Power Apps, and end-to-end data models that give HR and leadership teams clear, real-time visibility into eligibility, attrition, cost, and talent mobility. The same instinct for translating a messy problem into a working tool that drives the software above has shaped years of analytics delivery in the enterprise.
 
