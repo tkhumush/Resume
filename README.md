@@ -35,9 +35,9 @@ Built a clean, deployable web app that teaches the basics of Circassian, an enda
 
 Built a to-do and project-planning web app on an open protocol with encrypted storage, so tasks aren't locked into a single proprietary service. My most-adopted open-source project, forked by other developers.
 
-**Bitcoin District Relay**  ·  *self-hosted infrastructure  ·  [repo](https://github.com/tkhumush/BitcoinDistrictRelay)*
+**Seewaan / Nostrhood.social + Community Relays**  ·  *TypeScript, self-hosted infrastructure  ·  [seewaan.com](https://seewaan.com)  ·  [client](https://github.com/tkhumush/Seewaan)  ·  [relay](https://github.com/tkhumush/BitcoinDistrictRelay)*
 
-Stood up a self-hosted relay and media server that lets a local community keep its traffic and media under its own control instead of depending on public infrastructure it can't influence.
+Shipped a full-stack social experience: a Nostr web client (forked from Jumble) deployed at seewaan.com, also known as nostrhood.social, paired with self-hosted relay and media servers so a community can keep its traffic, content, and media entirely under its own control instead of depending on public infrastructure it can't influence.
 
 **Oneword**  ·  *TypeScript  ·  [repo](https://github.com/tkhumush/Oneword)*
 
