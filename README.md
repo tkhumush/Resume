@@ -12,13 +12,13 @@ A sample of things I've designed, built, and shipped. Every link is a public rep
 - **Problem:** Bitcoin mempool data (fees, congestion, block activity) lives in dense dashboards built for desktops — there was no ambient, glanceable way to monitor it on the biggest screen in the house.
 - **Solution:** Built and shipped a native Apple TV app that streams live mempool insights to the living room — live on the **App Store**, targeting a platform most developers never touch.
 
-**2. FastDiet** — *Swift + TypeScript · [iOS](https://github.com/tkhumush/FastDiet) · [PWA](https://github.com/tkhumush/FastDiet-PWA)*
+**2. FastDiet — Last Meal Burner** — *Swift + TypeScript · [App Store](https://apps.apple.com/us/app/fastdiet-last-meal-burner/id1487273671) · [PWA](https://github.com/tkhumush/FastDiet-PWA)*
 - **Problem:** Conventional fasting apps run on fixed time windows and ignore how much you actually ate.
 - **Solution:** Built a fasting tracker that derives your eating window from "calories owed to your future self" rather than a static clock — shipped as a native iOS app (live on the **App Store**) and re-platformed into an installable Progressive Web App for cross-platform reach.
 
 **3. Marmot — Encrypted Messaging Stack** — *Rust + TypeScript · [CLI](https://github.com/tkhumush/marmot-cli) · [plugin](https://github.com/tkhumush/openclaw-marmot)*
 - **Problem:** Secure group messaging usually means trusting a centralized server with your keys and metadata.
-- **Solution:** Built an end-to-end encrypted messaging stack on the Marmot Protocol (MLS) — a Rust CLI for key management plus a TypeScript channel plugin — so every participant holds their own keys with no central authority.
+- **Solution:** Built an end-to-end encrypted messaging stack on the Marmot Protocol (MLS) — a Rust CLI for key management plus a TypeScript channel plugin (**published and approved on ClawHub**) — so every participant holds their own keys with no central authority.
 
 **4. nostrTV** — *Swift + Kotlin · [tvOS](https://github.com/tkhumush/nostrTV) · [Android TV](https://github.com/tkhumush/nostrTV-droid)*
 - **Problem:** Decentralized, open-protocol social feeds are built for phones; there was no lean-back, big-screen way to browse them.
