@@ -10,37 +10,33 @@ A sample of things I've designed, built, and shipped. Every link is a public rep
 
 **1. MempoolTV** — *Swift / tvOS · [repo](https://github.com/tkhumush/MempoolTV)*
 - **Problem:** Bitcoin mempool data (fees, congestion, block activity) lives in dense dashboards built for desktops — there was no ambient, glanceable way to monitor it on the biggest screen in the house.
-- **Solution:** Built and shipped a native Apple TV app that streams live mempool insights to the living room — targeting a platform most developers never touch.
+- **Solution:** Built and shipped a native Apple TV app that streams live mempool insights to the living room — live on the **App Store**, targeting a platform most developers never touch.
 
-**2. FastDiet (PWA)** — *TypeScript · [repo](https://github.com/tkhumush/FastDiet-PWA)*
+**2. FastDiet** — *Swift + TypeScript · [iOS](https://github.com/tkhumush/FastDiet) · [PWA](https://github.com/tkhumush/FastDiet-PWA)*
 - **Problem:** Conventional fasting apps run on fixed time windows and ignore how much you actually ate.
-- **Solution:** Built a fasting tracker that derives your eating window from "calories owed to your future self" rather than a static clock, shipped as an installable Progressive Web App (re-platformed from an earlier native iOS build).
+- **Solution:** Built a fasting tracker that derives your eating window from "calories owed to your future self" rather than a static clock — shipped as a native iOS app (live on the **App Store**) and re-platformed into an installable Progressive Web App for cross-platform reach.
 
 **3. Marmot — Encrypted Messaging Stack** — *Rust + TypeScript · [CLI](https://github.com/tkhumush/marmot-cli) · [plugin](https://github.com/tkhumush/openclaw-marmot)*
 - **Problem:** Secure group messaging usually means trusting a centralized server with your keys and metadata.
 - **Solution:** Built an end-to-end encrypted messaging stack on the Marmot Protocol (MLS) — a Rust CLI for key management plus a TypeScript channel plugin — so every participant holds their own keys with no central authority.
 
-**4. nostrTV** — *Swift / tvOS · [repo](https://github.com/tkhumush/nostrTV)*
+**4. nostrTV** — *Swift + Kotlin · [tvOS](https://github.com/tkhumush/nostrTV) · [Android TV](https://github.com/tkhumush/nostrTV-droid)*
 - **Problem:** Decentralized, open-protocol social feeds are built for phones; there was no lean-back, big-screen way to browse them.
-- **Solution:** Built a tvOS app that turns open-protocol video and feeds into a living-room experience — my most-starred app.
+- **Solution:** Built a TV app that turns open-protocol video and feeds into a living-room experience, then took the same product across stacks to two platforms — the Swift/tvOS version is in **beta on TestFlight** pending iOS launch, with an Android TV / Chromecast port in Kotlin.
 
-**5. nostrTV for Android TV** — *Kotlin · [repo](https://github.com/tkhumush/nostrTV-droid)*
-- **Problem:** nostrTV only reached Apple households.
-- **Solution:** Re-targeted the same product to Android TV / Chromecast in Kotlin — taking a proven concept to a second platform and language quickly.
-
-**6. BASIC Circassian** — *TypeScript · [repo](https://github.com/tkhumush/BASIC_Circassian)*
+**5. BASIC Circassian** — *TypeScript · [repo](https://github.com/tkhumush/BASIC_Circassian)*
 - **Problem:** Circassian, an endangered heritage language, has almost no modern, approachable learning tools online.
 - **Solution:** Built a clean, deployable web app that teaches the basics of the language — a personal-heritage project doubling as a polished learning UI.
 
-**7. Zaplan** — *Svelte · [repo](https://github.com/tkhumush/zaplan)*
+**6. Zaplan** — *Svelte · [repo](https://github.com/tkhumush/zaplan)*
 - **Problem:** To-do and planning apps lock your data into a single proprietary service.
 - **Solution:** Built a to-do and project-planning web app on an open protocol with encrypted storage — my most-adopted open-source project, forked by other developers.
 
-**8. Bitcoin District Relay** — *self-hosted infrastructure · [repo](https://github.com/tkhumush/BitcoinDistrictRelay)*
+**7. Bitcoin District Relay** — *self-hosted infrastructure · [repo](https://github.com/tkhumush/BitcoinDistrictRelay)*
 - **Problem:** Communities relying on public infrastructure have no control over uptime, content, or media hosting.
 - **Solution:** Stood up a self-hosted relay and media server so a local community can keep its traffic and media under its own control.
 
-**9. Oneword** — *TypeScript · [repo](https://github.com/tkhumush/Oneword)*
+**8. Oneword** — *TypeScript · [repo](https://github.com/tkhumush/Oneword)*
 - **Problem:** Long-form reading on social-feed clients is cluttered and slow.
 - **Solution:** Built a stripped-down reader focused on fast, distraction-free consumption of long-form notes.
 
