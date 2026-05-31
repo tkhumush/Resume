@@ -1,6 +1,6 @@
 # Taymur Khumush
 
-Virginia, USA  ·  tkhemesh@gmail.com  ·  [github.com/tkhumush](https://github.com/tkhumush)
+Virginia, USA  ·  tkhumush@outlook.com  ·  [github.com/tkhumush](https://github.com/tkhumush)
 
 ## Summary
 Builder and management consultant who ships real, working software by directing AI tools across whatever stack the problem demands, from native mobile and TV apps to web clients, CLIs, and back-end infrastructure. Over a decade in **Human Capital and data analytics**, now channeled into a prolific independent portfolio of shipped products. Moves quickly from idea to deployed product, and excels at turning a fuzzy problem into a concrete, working solution.
