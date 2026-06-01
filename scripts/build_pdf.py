@@ -68,5 +68,12 @@ doc = f"""<!DOCTYPE html><html><head><meta charset="utf-8">
 # The first rendered <p> after the name is the contact line; tag it for styling.
 doc = doc.replace("<p>Virginia", '<p class="contact">Virginia', 1)
 
+# Push the Oneword entry cleanly to page 2.
+doc = doc.replace(
+    "<p><strong>Oneword</strong>",
+    '<p style="page-break-before: always"><strong>Oneword</strong>',
+    1,
+)
+
 HTML(string=doc, base_url=str(ROOT)).write_pdf(str(OUT))
 print(f"Wrote {OUT} ({OUT.stat().st_size // 1024} KB)")
